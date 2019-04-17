@@ -695,8 +695,11 @@ header {
                 }
                 .menu-link {
                     color: @text-color-dark;
-                    &::after {
-                        background-color: @text-color-dark;
+                    &.active, &:hover, &:focus, &:active {
+                        color: @accent-color;
+                        &::after {
+                            background-color: @accent-color;
+                        }
                     }
                 }
                 &:hover {

@@ -1067,9 +1067,25 @@ header {
 .header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link {
   color: #333333;
 }
-.header-inner .menu-item:first-child.menu-item-with-submenu .menu-link::after,
-.header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link::after {
-  background-color: #333333;
+.header-inner .menu-item:first-child.menu-item-with-submenu .menu-link.active,
+.header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link.active,
+.header-inner .menu-item:first-child.menu-item-with-submenu .menu-link:hover,
+.header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link:hover,
+.header-inner .menu-item:first-child.menu-item-with-submenu .menu-link:focus,
+.header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link:focus,
+.header-inner .menu-item:first-child.menu-item-with-submenu .menu-link:active,
+.header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link:active {
+  color: #00bacf;
+}
+.header-inner .menu-item:first-child.menu-item-with-submenu .menu-link.active::after,
+.header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link.active::after,
+.header-inner .menu-item:first-child.menu-item-with-submenu .menu-link:hover::after,
+.header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link:hover::after,
+.header-inner .menu-item:first-child.menu-item-with-submenu .menu-link:focus::after,
+.header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link:focus::after,
+.header-inner .menu-item:first-child.menu-item-with-submenu .menu-link:active::after,
+.header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link:active::after {
+  background-color: #00bacf;
 }
 .header-inner .menu-item:first-child.menu-item-with-submenu:hover::after,
 .header-inner .menu-item:nth-child(2).menu-item-with-submenu:hover::after {
