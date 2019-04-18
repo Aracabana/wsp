@@ -444,9 +444,42 @@ a:focus {
   background-color: #00bacf;
 }
 .btn-icon {
+  position: relative;
   padding-right: 59px;
+}
+.btn-icon::after {
+  content: '';
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  z-index: 1;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
+}
+.btn-icon::before {
+  content: '';
+  position: absolute;
+  right: 2px;
+  top: 2px;
+  z-index: 2;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  width: 58px;
+  height: 58px;
   background-repeat: no-repeat;
-  background-position: right 1px top 1px;
+  background-position: center center;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 .btn-icon-dark {
   background-color: #00bacf;
@@ -454,11 +487,21 @@ a:focus {
   -moz-box-shadow: 0 0 35px 0 rgba(0, 186, 207, 0.79);
   box-shadow: 0 0 35px 0 rgba(0, 186, 207, 0.79);
 }
+.btn-icon-dark::after {
+  background-color: #ffffff;
+}
 .btn-icon-dark:focus,
 .btn-icon-dark:active,
 .btn-icon-dark:hover {
   color: #00bacf;
   background-color: #ffffff;
+}
+.btn-icon-dark:focus::after,
+.btn-icon-dark:active::after,
+.btn-icon-dark:hover::after {
+  background-image: -moz-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -webkit-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -ms-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
 }
 .btn-icon-light {
   line-height: 64px;
@@ -467,19 +510,50 @@ a:focus {
   -moz-box-shadow: 0 0 28px 0 rgba(255, 255, 255, 0.75), inset 0 0 28px 0 rgba(255, 255, 255, 0.75);
   box-shadow: 0 0 28px 0 rgba(255, 255, 255, 0.75), inset 0 0 28px 0 rgba(255, 255, 255, 0.75);
 }
+.btn-icon-light::before {
+  right: 1px;
+  top: 1px;
+}
+.btn-icon-light::after {
+  right: 1px;
+  top: 1px;
+  background-image: -moz-linear-gradient(129deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-linear-gradient(129deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -ms-linear-gradient(129deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+}
 .btn-icon-light:focus,
 .btn-icon-light:active,
 .btn-icon-light:hover {
   color: #00bacf;
   background-color: #ffffff;
 }
+.btn-icon-light:focus::after,
+.btn-icon-light:active::after,
+.btn-icon-light:hover::after {
+  background-color: #00b9cf;
+  background-image: -moz-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -webkit-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -ms-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+}
 .btn-icon-light-inverse {
   border: 1px solid #00c2d9;
   color: #00bacf;
-  background-color: #f7f5f8;
-  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.38);
-  -moz-box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.38);
-  box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.38);
+  background-color: transparent;
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.28), inset 0 2px 8px 0 rgba(0, 186, 207, 0.28);
+  -moz-box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.28), inset 0 2px 8px 0 rgba(0, 186, 207, 0.28);
+  box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.28), inset 0 2px 8px 0 rgba(0, 186, 207, 0.28);
+}
+.btn-icon-light-inverse::after {
+  right: 1px;
+  top: 1px;
+  background-color: #00b9cf;
+  background-image: -moz-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -webkit-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -ms-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+}
+.btn-icon-light-inverse::before {
+  right: 1px;
+  top: 1px;
 }
 .btn-icon-light-inverse:focus,
 .btn-icon-light-inverse:active,
@@ -490,6 +564,14 @@ a:focus {
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
   box-shadow: none;
+}
+.btn-icon-light-inverse:focus::after,
+.btn-icon-light-inverse:active::after,
+.btn-icon-light-inverse:hover::after {
+  background-color: #00b9cf;
+  background-image: -moz-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -webkit-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -ms-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
 }
 a.btn-icon-dark,
 a.btn-default {
@@ -577,9 +659,9 @@ a.btn-icon-light {
   line-height: 1;
   font-family: 'Roboto', sans-serif;
   background-color: transparent;
-  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.38), inset 0 2px 8px 0 rgba(0, 186, 207, 0.38);
-  -moz-box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.38), inset 0 2px 8px 0 rgba(0, 186, 207, 0.38);
-  box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.38), inset 0 2px 8px 0 rgba(0, 186, 207, 0.38);
+  -webkit-box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.28), inset 0 2px 8px 0 rgba(0, 186, 207, 0.28);
+  -moz-box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.28), inset 0 2px 8px 0 rgba(0, 186, 207, 0.28);
+  box-shadow: 0 2px 8px 0 rgba(0, 186, 207, 0.28), inset 0 2px 8px 0 rgba(0, 186, 207, 0.28);
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
@@ -797,23 +879,24 @@ header {
   -webkit-flex-shrink: 0;
   -ms-flex-negative: 0;
   flex-shrink: 0;
-  background-image: url("../img/ico-tel-for-button.png");
 }
-.btn-icon-light.header-callback-btn {
-  background-image: url("../img/ico-tel-for-button.png");
+.btn-icon-light.header-callback-btn::before {
+  background-image: url("../img/ico-tel-blue.svg");
+  background-size: 24px 24px;
 }
-.btn-icon-light.header-callback-btn:hover,
-.btn-icon-light.header-callback-btn:active,
-.btn-icon-light.header-callback-btn:focus {
-  background-image: url("../img/ico-tel-for-button-hover.png");
+.btn-icon-light.header-callback-btn:hover::before,
+.btn-icon-light.header-callback-btn:active::before,
+.btn-icon-light.header-callback-btn:focus::before {
+  background-image: url("../img/ico-tel-white.svg");
 }
-.btn-icon-light-inverse.header-callback-btn {
-  background-image: url("../img/ico-tel-for-button-hover.png");
+.btn-icon-light-inverse.header-callback-btn::before {
+  background-image: url("../img/ico-tel-white.svg");
+  background-size: 24px 24px;
 }
-.btn-icon-light-inverse.header-callback-btn:hover,
-.btn-icon-light-inverse.header-callback-btn:active,
-.btn-icon-light-inverse.header-callback-btn:focus {
-  background-image: url("../img/ico-tel-for-button-hover.png");
+.btn-icon-light-inverse.header-callback-btn:hover::before,
+.btn-icon-light-inverse.header-callback-btn:active::before,
+.btn-icon-light-inverse.header-callback-btn:focus::before {
+  background-image: url("../img/ico-tel-white.svg");
 }
 /*=MENU=*/
 .menu-wrapper {
@@ -995,8 +1078,16 @@ header {
   right: 15px;
   margin-top: -31px;
   width: 220px;
-  background-image: url("../img/ico-tel-for-button-hover.png");
   opacity: 0;
+}
+.menu-callback-btn::before {
+  background-image: url("../img/ico-tel-white.svg");
+  background-size: 24px 24px;
+}
+.menu-callback-btn:hover::before,
+.menu-callback-btn:active::before,
+.menu-callback-btn:focus::before {
+  background-image: url("../img/ico-tel-white.svg");
 }
 .menu-wrapper.fixed {
   position: fixed;
@@ -1906,7 +1997,7 @@ footer {
   background-color: #F7F5F8;
 }
 .modal-backdrop.in {
-  opacity: 0.90;
+  opacity: 0.9;
 }
 .modal-dialog {
   margin-left: auto;
@@ -2443,9 +2534,10 @@ footer {
   width: 36px;
   height: 36px;
   background-color: #00bacf;
-  background-image: url("../img/ico-tick-white.png");
+  background-image: url("../img/ico-tick-white.svg");
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 21px 21px;
   -webkit-box-shadow: 0 0 35px 0 rgba(255, 255, 255, 0.82);
   -moz-box-shadow: 0 0 35px 0 rgba(255, 255, 255, 0.82);
   box-shadow: 0 0 35px 0 rgba(255, 255, 255, 0.82);
@@ -2544,12 +2636,15 @@ footer {
 }
 .site-link-btn {
   margin-top: 100px;
-  background-image: url("../img/ico-site-link-blue.png");
 }
-.site-link-btn:hover,
-.site-link-btn:active,
-.site-link-btn:focus {
-  background-image: url("../img/ico-site-link-white.png");
+.site-link-btn::before {
+  background-image: url("../img/ico-site-link-blue.svg");
+  background-size: 36px 36px;
+}
+.site-link-btn:hover::before,
+.site-link-btn:active::before,
+.site-link-btn:focus::before {
+  background-image: url("../img/ico-site-link-white.svg");
 }
 .site-page-img-wrapper {
   margin-bottom: 35px;
