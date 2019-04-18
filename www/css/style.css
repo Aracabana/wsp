@@ -340,10 +340,15 @@ h4 {
 }
 /*lists*/
 .marker-list-tick li:before {
-  content: url("../img/ico-tick-blue.png");
-  display: inline;
+  content: '';
+  display: inline-block;
   vertical-align: middle;
-  padding-right: 5px;
+  margin-right: 5px;
+  width: 16px;
+  height: 14px;
+  background-image: url("../img/ico-tick-blue.svg");
+  background-size: 16px 14px;
+  background-repeat: no-repeat;
 }
 /*=LINKS&FORMS=*/
 a,
@@ -740,6 +745,11 @@ header {
   padding-top: 25px;
   padding-bottom: 10px;
 }
+.header-logo-img {
+  display: block;
+  width: 240px;
+  height: 74px;
+}
 .header-contacts {
   display: -webkit-box;
   display: -webkit-flex;
@@ -774,10 +784,12 @@ header {
   color: #ffffff;
 }
 .header-phone-link {
-  background-image: url("../img/ico-tel-white-small.png");
+  background-image: url("../img/ico-tel-white-small.svg");
+  background-size: 18px 18px;
 }
 .header-email-link {
-  background-image: url("../img/ico-email-white-small.png");
+  background-image: url("../img/ico-email-white-small.svg");
+  background-size: 20px 15px;
 }
 .header-callback-btn {
   -webkit-flex-shrink: 0;
@@ -1038,10 +1050,12 @@ header {
   color: #333333;
 }
 .header-inner .header-phone-link {
-  background-image: url("../img/ico-tel-blue-small.png");
+  background-image: url("../img/ico-tel-blue-small.svg");
+  background-size: 18px 18px;
 }
 .header-inner .header-email-link {
-  background-image: url("../img/ico-email-blue-small.png");
+  background-image: url("../img/ico-email-blue-small.svg");
+  background-size: 20px 15px;
 }
 .header-inner .menu-item:first-child .menu-link,
 .header-inner .menu-item:nth-child(2) .menu-link {
@@ -1309,25 +1323,26 @@ header {
   background-color: transparent;
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: 42px 34px;
   transition: all ease 0.3s;
 }
 .slider-dark .slick-arrow:hover {
   border-color: #00bacf;
 }
 .slider-dark .slick-prev {
-  background-image: url("../img/ico-slider-arrow-left-blue.png");
+  background-image: url("../img/ico-slider-arrow-left-blue.svg");
 }
 .slider-dark .slick-next {
-  background-image: url("../img/ico-slider-arrow-right-blue.png");
+  background-image: url("../img/ico-slider-arrow-right-blue.svg");
 }
 .slider-light .slick-arrow:hover {
   border-color: #ffffff;
 }
 .slider-light .slick-prev {
-  background-image: url("../img/ico-slider-arrow-left-white.png");
+  background-image: url("../img/ico-slider-arrow-left-white.svg");
 }
 .slider-light .slick-next {
-  background-image: url("../img/ico-slider-arrow-right-white.png");
+  background-image: url("../img/ico-slider-arrow-right-white.svg");
 }
 /*=Swipebox=*/
 #swipebox-overlay {
@@ -1365,10 +1380,12 @@ header {
   border: 1px solid #00bacf !important;
 }
 #swipebox-prev {
-  background-image: url("../img/ico-slider-arrow-left-blue.png");
+  background-image: url("../img/ico-slider-arrow-left-blue.svg");
+  background-size: 42px 34px;
 }
 #swipebox-next {
-  background-image: url("../img/ico-slider-arrow-right-blue.png");
+  background-image: url("../img/ico-slider-arrow-right-blue.svg");
+  background-size: 42px 34px;
 }
 #swipebox-close {
   right: 25px;
@@ -1836,6 +1853,7 @@ footer {
 .footer-logo-img {
   display: block;
   width: 187px;
+  height: 58px;
 }
 .footer-menu-wrapper {
   display: -webkit-box;
@@ -1874,10 +1892,12 @@ footer {
   color: #333333;
 }
 .footer-phone-link {
-  background-image: url("../img/ico-tel-blue-small.png");
+  background-image: url("../img/ico-tel-blue-small.svg");
+  background-size: 13px 13px;
 }
 .footer-email-link {
-  background-image: url("../img/ico-email-blue-small.png");
+  background-image: url("../img/ico-email-blue-small.svg");
+  background-size: 18px 13px;
 }
 /*=MODAL=*/
 .modal-backdrop {
@@ -2536,17 +2556,20 @@ footer {
   background-position: left center;
 }
 .contacts-item .phone-link {
-  background-image: url("../img/ico-tel-blue-small.png");
+  background-image: url("../img/ico-tel-blue-small.svg");
+  background-size: 13px 13px;
 }
 .contacts-item .email-link {
-  background-image: url("../img/ico-email-blue-small.png");
+  background-image: url("../img/ico-email-blue-small.svg");
+  background-size: 16px 12px;
 }
 .contacts-item.address {
   padding-left: 20px;
   font-weight: 500;
   font-size: 14px;
-  background-image: url("../img/ico-pin-small-blue.png");
+  background-image: url("../img/ico-pin-small-blue.svg");
   background-repeat: no-repeat;
+  background-size: 13px 17px;
   background-position: 1px center;
   color: #333333;
 }
@@ -2597,10 +2620,15 @@ footer {
   line-height: 1.5;
 }
 .text-section ul li:before {
-  content: url("../img/ico-tick-blue.png");
-  display: inline;
+  content: '';
+  display: inline-block;
   vertical-align: middle;
-  padding-right: 5px;
+  margin-right: 5px;
+  width: 16px;
+  height: 14px;
+  background-image: url("../img/ico-tick-blue.svg");
+  background-size: 16px 14px;
+  background-repeat: no-repeat;
 }
 .text-section ol {
   counter-reset: li;
@@ -3166,6 +3194,7 @@ footer {
   /*=HEADER=*/
   .header-logo-img {
     width: 187px;
+    height: 58px;
   }
   .header-contacts-link {
     font-size: 16px;
@@ -3404,6 +3433,12 @@ footer {
     display: block;
     padding-top: 15px;
     text-align: center;
+  }
+  .header-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 187px;
   }
   .header-contacts {
     padding-top: 15px;

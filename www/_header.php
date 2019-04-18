@@ -22,7 +22,7 @@
 <header <?php if ($GLOBALS["page"] !== "home") { ?>class="header-inner"<?php } ?>>
     <div class="container header-container">
         <a href="/" class="header-logo">
-            <img src="./img/logo.png" alt="" class="header-logo-img">
+            <img src="./img/logo.svg" alt="" class="header-logo-img">
         </a>
         <div class="header-contacts">
             <div class="header-contacts-in">

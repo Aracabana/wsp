@@ -2,7 +2,7 @@
     <div class="container footer-container">
         <div class="footer-logo-wrapper">
             <a href="/" class="footer-logo">
-                <img src="./img/logo.png" alt="" class="footer-logo-img">
+                <img src="./img/logo.svg" alt="" class="footer-logo-img">
             </a>
         </div>
         <div class="footer-menu-wrapper">
