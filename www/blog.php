@@ -14,7 +14,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
             <form id="search-form" class="search-form">
                 <input type="search" id="search" class="form-control search-input" placeholder="Введите текст">
                 <button class="search-btn" type="submit">
-                    <img src="./img/ico-search.png" alt="Поиск">
+                    <img src="./img/ico-search.svg" alt="Поиск">
                 </button>
             </form>
             <p class="tag"><a href="">Интернет-магазин</a></p>

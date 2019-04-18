@@ -717,6 +717,8 @@ textarea.form-control {
   right: 0;
   bottom: 0;
   margin: auto;
+  width: 31px;
+  height: 32px;
 }
 .request-call-form {
   margin-top: 50px;
