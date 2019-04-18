@@ -12,27 +12,35 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
         <h1 class="section-title section-title-dark">О нас</h1>
         <p class="section-inner-text">Наша команда специалистов поможет с&nbsp;разработкой понятного и&nbsp;удобного сайта, который будет отражать индивидуальность Вашей компании, предоставлять необходимую информацию, оптимизировать Вашу работу за&nbsp;счет нужного функционала и&nbsp;расширит возможности.</p>
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-5">
                 <div class="about-us-card about-us-card-1">
-                    <img src="./img/ico-about-1.png" alt="" class="about-us-card-img">
+                    <div class="about-us-card-img-wrapper about-us-card-1-img-wrapper">
+                        <img src="./img/ico-about-1.svg" alt="" class="about-us-card-img">
+                    </div>
                     <p class="about-us-card-text">Наш опыт в&nbsp;разработке сайтов более 6&nbsp;лет.</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-7">
                 <div class="about-us-card about-us-card-2">
-                    <img src="./img/ico-about-2.png" alt="" class="about-us-card-img">
+                    <div class="about-us-card-img-wrapper about-us-card-2-img-wrapper">
+                        <img src="./img/ico-about-2.svg" alt="" class="about-us-card-img">
+                    </div>
                     <p class="about-us-card-text">Подходим к&nbsp;работе индивидуально, исходя из&nbsp;Ваших задач и&nbsp;с&nbsp;учетом пожеланий</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-5">
                 <div class="about-us-card about-us-card-3">
-                    <img src="./img/ico-about-3.png" alt="" class="about-us-card-img">
+                    <div class="about-us-card-img-wrapper about-us-card-3-img-wrapper">
+                        <img src="./img/ico-about-3.svg" alt="" class="about-us-card-img">
+                    </div>
                     <p class="about-us-card-text">Учитываем современные тренды, возможности и&nbsp;потребности в&nbsp;веб-разработке.</p>
                 </div>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-7">
                 <div class="about-us-card about-us-card-4">
-                    <img src="./img/ico-about-4.png" alt="" class="about-us-card-img">
+                    <div class="about-us-card-img-wrapper about-us-card-4-img-wrapper">
+                        <img src="./img/ico-about-4.svg" alt="" class="about-us-card-img">
+                    </div>
                     <p class="about-us-card-text">Каждый сотрудник нашей команды профессионал в&nbsp;своей области и&nbsp;с&nbsp;удовольствием применяет свои знания, навыки и &nbsp;опыт в&nbsp;работе над&nbsp;проектами.</p>
                 </div>
             </div>

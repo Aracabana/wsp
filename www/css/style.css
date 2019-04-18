@@ -2007,9 +2007,76 @@ footer {
 .home-advantages {
   padding-bottom: 50px;
 }
-.home-advantages-ico {
+.home-advantages-card-img-wrapper {
+  position: relative;
   display: block;
   margin: 0 auto 10px;
+  width: 112px;
+  height: 114px;
+  background-repeat: no-repeat;
+}
+.home-advantages-ico {
+  position: absolute;
+}
+.home-advantages-card-1-img-wrapper {
+  background-image: url("../img/ico-bg-1.svg");
+  background-size: 99px 103px;
+}
+.home-advantages-card-1-img-wrapper img {
+  top: 26px;
+  left: 20px;
+  width: 60px;
+  height: 58px;
+}
+.home-advantages-card-2-img-wrapper {
+  background-image: url("../img/ico-bg-2.svg");
+  background-size: 110px 96px;
+}
+.home-advantages-card-2-img-wrapper img {
+  top: 13px;
+  left: 26px;
+  width: 60px;
+  height: 60px;
+}
+.home-advantages-card-3-img-wrapper {
+  background-image: url("../img/ico-bg-3.svg");
+  background-size: 104px 98px;
+}
+.home-advantages-card-3-img-wrapper img {
+  top: 21px;
+  left: 25px;
+  width: 60px;
+  height: 48px;
+}
+.home-advantages-card-4-img-wrapper {
+  background-image: url("../img/ico-bg-4.svg");
+  background-size: 104px 98px;
+}
+.home-advantages-card-4-img-wrapper img {
+  top: 19px;
+  left: 20px;
+  width: 64px;
+  height: 60px;
+}
+.home-advantages-card-5-img-wrapper {
+  background-image: url("../img/ico-bg-5.svg");
+  background-size: 99px 114px;
+}
+.home-advantages-card-5-img-wrapper img {
+  top: 28px;
+  left: 20px;
+  width: 64px;
+  height: 64px;
+}
+.home-advantages-card-6-img-wrapper {
+  background-image: url("../img/ico-bg-6.svg");
+  background-size: 112px 95px;
+}
+.home-advantages-card-6-img-wrapper img {
+  top: 13px;
+  left: 27px;
+  width: 64px;
+  height: 64px;
 }
 .home-advantages-title {
   margin: 0 auto;
@@ -2113,24 +2180,26 @@ footer {
   width: 185px;
 }
 .home-promotion-link-1::before {
-  background-image: url("../img/ico-home-promotion-1.png");
+  background-image: url("../img/ico-home-promotion-1.svg");
+  background-size: 52px 64px;
 }
 .home-promotion-link-1:hover::before,
 .home-promotion-link-1:active::before,
 .home-promotion-link-1:focus::before {
-  background-image: url("../img/ico-home-promotion-1-hover.png");
+  background-image: url("../img/ico-home-promotion-1-hover.svg");
 }
 .home-promotion-link-2 {
   margin-left: 60px;
   width: 240px;
 }
 .home-promotion-link-2::before {
-  background-image: url("../img/ico-home-promotion-2.png");
+  background-image: url("../img/ico-home-promotion-2.svg");
+  background-size: 56px 60px;
 }
 .home-promotion-link-2:hover::before,
 .home-promotion-link-2:active::before,
 .home-promotion-link-2:focus::before {
-  background-image: url("../img/ico-home-promotion-2-hover.png");
+  background-image: url("../img/ico-home-promotion-2-hover.svg");
 }
 .home-promotion-link:hover::before,
 .home-promotion-link:active::before,
@@ -2210,9 +2279,21 @@ footer {
 .about-us-card-2 {
   padding-bottom: 40px;
 }
-.about-us-card-img {
+.about-us-card-2,
+.about-us-card-4 {
+  padding-left: 30px;
+}
+.about-us-card-img-wrapper {
   float: left;
+  position: relative;
+  width: 110px;
+  height: 115px;
   margin-right: 35px;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.about-us-card-img {
+  position: absolute;
 }
 .about-us-card-text {
   margin-left: 145px;
@@ -2220,6 +2301,46 @@ footer {
   font-size: 18px;
   line-height: 1.5;
   color: #333333;
+}
+.about-us-card-1-img-wrapper {
+  background-image: url("../img/ico-bg-1.svg");
+  background-size: 99px 103px;
+}
+.about-us-card-1-img-wrapper img {
+  top: 23px;
+  left: 18px;
+  width: 64px;
+  height: 64px;
+}
+.about-us-card-2-img-wrapper {
+  background-image: url("../img/ico-bg-2.svg");
+  background-size: 110px 96px;
+}
+.about-us-card-2-img-wrapper img {
+  top: 11px;
+  left: 30px;
+  width: 52px;
+  height: 64px;
+}
+.about-us-card-3-img-wrapper {
+  background-image: url("../img/ico-bg-3.svg");
+  background-size: 104px 98px;
+}
+.about-us-card-3-img-wrapper img {
+  top: 18px;
+  left: 25px;
+  width: 60px;
+  height: 56px;
+}
+.about-us-card-4-img-wrapper {
+  background-image: url("../img/ico-bg-5.svg");
+  background-size: 99px 114px;
+}
+.about-us-card-4-img-wrapper img {
+  top: 30px;
+  left: 20px;
+  width: 64px;
+  height: 60px;
 }
 .team-card {
   padding-top: 45px;
@@ -2795,6 +2916,11 @@ footer {
   .home-promotion-link-2 {
     margin-left: 25px;
   }
+  /*=ABOUT US=*/
+  .about-us-card-2,
+  .about-us-card-4 {
+    padding-left: 15px;
+  }
   /*=PORTFOLIO_INNER=*/
   .site-link-btn {
     margin-top: 50px;
@@ -3136,6 +3262,10 @@ footer {
     padding: 25px 0 0;
   }
   /*=ABOUT US=*/
+  .about-us-card-2,
+  .about-us-card-4 {
+    padding-left: 0;
+  }
   .about-us-card-3 {
     padding-bottom: 40px;
   }
@@ -3493,7 +3623,7 @@ footer {
     font-size: 18px;
   }
   /*=ABOUT US=*/
-  .about-us-card-img {
+  .about-us-card-img-wrapper {
     margin-right: 10px;
   }
   .about-us-card-text {
@@ -3579,10 +3709,10 @@ footer {
   }
   /*=ABOUT US=*/
   .about-us-card {
-    padding-top: 40px;
+    padding-top: 45px;
     padding-bottom: 0;
   }
-  .about-us-card-img {
+  .about-us-card-img-wrapper {
     float: none;
     display: block;
     margin: 0 auto 20px;

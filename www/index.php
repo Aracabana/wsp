@@ -20,42 +20,54 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
         <div class="row">
             <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
                 <div class="home-advantages-card">
-                    <img src="./img/ico-adv-1.png" alt="" class="home-advantages-ico">
+                    <div class="home-advantages-card-img-wrapper home-advantages-card-1-img-wrapper">
+                        <img src="./img/ico-adv-1.svg" alt="" class="home-advantages-ico">
+                    </div>
                     <h3 class="title-h3 home-advantages-title">Удобная и&nbsp;понятная
                         структура сайта</h3>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
                 <div class="home-advantages-card">
-                    <img src="./img/ico-adv-2.png" alt="" class="home-advantages-ico">
+                    <div class="home-advantages-card-img-wrapper home-advantages-card-2-img-wrapper">
+                        <img src="./img/ico-adv-2.svg" alt="" class="home-advantages-ico">
+                    </div>
                     <h3 class="title-h3 home-advantages-title">Современный
                         индивидуальный дизайн</h3>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
                 <div class="home-advantages-card">
-                    <img src="./img/ico-adv-3.png" alt="" class="home-advantages-ico">
+                    <div class="home-advantages-card-img-wrapper home-advantages-card-3-img-wrapper">
+                        <img src="./img/ico-adv-3.svg" alt="" class="home-advantages-ico">
+                    </div>
                     <h3 class="title-h3 home-advantages-title">Адаптивность
                         и&nbsp;кроссбраузерность</h3>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
                 <div class="home-advantages-card">
-                    <img src="./img/ico-adv-4.png" alt="" class="home-advantages-ico">
+                    <div class="home-advantages-card-img-wrapper home-advantages-card-4-img-wrapper">
+                        <img src="./img/ico-adv-4.svg" alt="" class="home-advantages-ico">
+                    </div>
                     <h3 class="title-h3 home-advantages-title">Гибкая система
                         управления</h3>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
                 <div class="home-advantages-card">
-                    <img src="./img/ico-adv-5.png" alt="" class="home-advantages-ico">
+                    <div class="home-advantages-card-img-wrapper home-advantages-card-5-img-wrapper">
+                        <img src="./img/ico-adv-5.svg" alt="" class="home-advantages-ico">
+                    </div>
                     <h3 class="title-h3 home-advantages-title">Разработка концепции
                         и&nbsp;продвижение</h3>
                 </div>
             </div>
             <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
                 <div class="home-advantages-card">
-                    <img src="./img/ico-adv-6.png" alt="" class="home-advantages-ico">
+                    <div class="home-advantages-card-img-wrapper home-advantages-card-6-img-wrapper">
+                        <img src="./img/ico-adv-6.svg" alt="" class="home-advantages-ico">
+                    </div>
                     <h3 class="title-h3 home-advantages-title">Техническая<br>
                         поддержка</h3>
                 </div>
