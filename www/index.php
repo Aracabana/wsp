@@ -185,7 +185,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                         <p class="review-card-company-name">Название компании</p>
                         <p class="review-card-author"><span class="review-card-author-name">Имя Фамилия</span>, <span class="review-card-author-position">Должность</span></p>
                         <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <a href="" class="review-card-text-link">Подробнее</a>.</p>
+                            <a href="#" class="review-card-text-link" data-href="#review-modal" data-toggle="modal" data-target="#review-modal">Подробнее</a>.</p>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                     <div class="review-card-content">
                         <p class="review-card-author"><span class="review-card-author-name">Имя Фамилия</span></p>
                         <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <a href="" class="review-card-text-link">Подробнее</a>.</p>
+                            <a href="#" class="review-card-text-link" data-href="#review-modal" data-toggle="modal" data-target="#review-modal">Подробнее</a>.</p>
                     </div>
                 </div>
             </div>
@@ -214,7 +214,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                         <p class="review-card-company-name">Название компании</p>
                         <p class="review-card-author"><span class="review-card-author-name">Имя Фамилия</span>, <span class="review-card-author-position">Должность</span></p>
                         <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <a href="" class="review-card-text-link">Подробнее</a>.</p>
+                            <a href="#" class="review-card-text-link" data-href="#review-modal" data-toggle="modal" data-target="#review-modal">Подробнее</a>.</p>
                     </div>
                 </div>
             </div>

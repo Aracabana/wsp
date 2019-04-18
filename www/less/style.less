@@ -240,7 +240,9 @@ a.btn {
         line-height: 62px;
     }
     &-default-light,
-    &-default-inverse {
+    &-default-inverse,
+    &-icon-light-inverse,
+    &-icon-light {
         line-height: 64px;
     }
 }
@@ -310,6 +312,9 @@ a.btn {
     line-height: 1;
     font-family: @font;
     background-color: transparent;
+    -webkit-box-shadow: 0 2px 8px 0 fade(@accent-color, 38%), inset 0  2px 8px 0 fade(@accent-color, 38%);
+    -moz-box-shadow: 0  2px 8px 0 fade(@accent-color, 38%), inset 0  2px 8px 0 fade(@accent-color, 38%);
+    box-shadow: 0  2px 8px 0 fade(@accent-color, 38%), inset 0  2px 8px 0 fade(@accent-color, 38%);
     .transition();
     .placeholder({
         font-size: 14px;
@@ -318,7 +323,9 @@ a.btn {
     });
     &:focus {
         color: @text-color;
-        .box-shadow(0, 2px, 8px, 0, rgba(0, 186, 207, 0.38));
+        -webkit-box-shadow: 0 2px 8px 0 fade(@accent-color, 65%), inset 0  2px 8px 0 fade(@accent-color, 65%);
+        -moz-box-shadow: 0  2px 8px 0 fade(@accent-color, 65%), inset 0  2px 8px 0 fade(@accent-color, 65%);
+        box-shadow: 0  2px 8px 0 fade(@accent-color, 65%), inset 0  2px 8px 0 fade(@accent-color, 65%);
         .placeholder({
             opacity: 0.3;
         });
@@ -388,6 +395,9 @@ textarea.form-control {
     img {
         .img-center();
     }
+}
+.request-call-form {
+    margin-top: 50px;
 }
 
 /*=HEADER=*/
@@ -983,7 +993,7 @@ header {
 #swipebox-close {
     right: 25px;
     background-image: url("../img/ico-cancel.png");
-    background-size: 24px auto;
+    background-size: 32px auto;
 }
 /*=Manager-inner-form=*/
 .manager-inner {
@@ -1180,6 +1190,9 @@ header {
     }
     &-text {
         line-height: 1.5;
+        + .review-card-text {
+            margin-top: 25px;
+        }
         &-link {
             text-decoration: underline;
         }
@@ -1225,6 +1238,35 @@ header {
             .review-card-text-link {
                 color: #ffffff;
             }
+        }
+    }
+}
+.review-card-modal {
+    padding-top: 0;
+    .review-card-header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        margin-bottom: 30px;
+        padding: 28px 0 28px 28px;
+    }
+    .review-card-avatar-wrapper {
+        margin: 0 48px 0 0;
+    }
+    .review-card-modal-title {
+        margin-bottom: 0;
+        padding-top: 20px;
+    }
+    .review-card-content {
+        padding: 0;
+    }
+    .review-card-author {
+        font-size: 18px;
+    }
+    &:hover {
+        .review-card-content {
+            color: @text-color-dark;
+            background-color: transparent;
         }
     }
 }
@@ -1429,6 +1471,55 @@ footer {
 }
 .footer-email-link {
     background-image: url("../img/ico-email-blue-small.png");
+}
+/*=MODAL=*/
+.modal-backdrop {
+    background-color: #F7F5F8;
+    &.in {
+        opacity: 0.90;
+    }
+}
+.modal-dialog {
+    margin-left: auto;
+    margin-right: auto;
+    .border-radius(0);
+    border: none;
+    width: 98%;
+    max-width: 620px;
+    background-color: transparent;
+    //.box-shadow(0, 0, 15px, 0, rgba(0,0,0,0.2));
+    .box-shadow-none();
+}
+.modal-content {
+    .border-radius(0);
+    border: none;
+    background-color: #ffffff;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.modal-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    .border-radius(50%);
+    width: 32px;
+    height: 32px;
+    background-color: transparent;
+    cursor: pointer;
+    .transition();
+    &:hover {
+        background-color: transparent;
+    }
+    img {
+        display: block;
+    }
+}
+.review-modal-content {
+    padding: 40px 35px 55px;
+}
+.request-call-modal-content {
+    padding: 45px 65px 80px;
 }
 
 /*=HOME=*/

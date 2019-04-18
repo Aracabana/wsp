@@ -42,7 +42,8 @@
                     </a>
                 </p>
             </div>
-            <button class="btn btn-icon<?php if ($GLOBALS["page"] === "home") { ?> btn-icon-light<?php } elseif ($GLOBALS["page"] !== "home") { ?> btn-icon-light-inverse<?php } ?> btn-block header-callback-btn">Перезвоните</button>
+            <a class="btn btn-icon<?php if ($GLOBALS["page"] === "home") { ?> btn-icon-light<?php } elseif ($GLOBALS["page"] !== "home") { ?> btn-icon-light-inverse<?php } ?> btn-block header-callback-btn" data-href="#request-call-modal" data-toggle="modal"
+               data-target="#request-call-modal" href="#">Перезвоните</a>
         </div>
     </div>
     <nav id="js-menu-wrapper" class="menu-wrapper">
@@ -103,7 +104,7 @@
                     <a href="contacts.php" class="menu-link<?php if ($GLOBALS["page"] === "contacts") { ?> active<?php } ?>">Контакты</a>
                 </li>
             </ul>
-            <button class="btn btn-icon btn-icon-light-inverse btn-block menu-callback-btn">Перезвоните</button>
+            <a class="btn btn-icon btn-icon-light-inverse btn-block menu-callback-btn" data-href="#request-call-modal" data-toggle="modal" data-target="#request-call-modal" href="#">Перезвоните</a>
         </div>
     </nav>
 </header>

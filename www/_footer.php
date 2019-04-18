@@ -60,7 +60,8 @@
         </div>
         <div class="footer-contacts">
             <p class="footer-contacts-item">
-                <a class="footer-contacts-link footer-phone-link phone-link contacts-link" href="tel:+74956541236"><span>+7 (495) 654 12 36</a>
+                <a class="footer-contacts-link footer-phone-link phone-link contacts-link"
+                   href="tel:+74956541236"><span>+7 (495) 654 12 36</a>
                 <a href="whatsapp://send?phone=74956541236" class="messenger-link">
                     <img src="./img/ico-whatsapp.png" alt="Whatsapp">
                 </a>
@@ -74,18 +75,67 @@
             <p class="footer-contacts-item">
                 <a class="footer-contacts-link footer-email-link contacts-link" href="mailto:wsp@mail.com"><span>wsp@mail.com</span></a>
             </p>
-            <button class="btn btn-default btn-block">Перезвоните</button>
+            <a class="btn btn-default btn-block" data-href="#request-call-modal" data-toggle="modal"
+               data-target="#request-call-modal" href="#">Перезвоните</a>
         </div>
     </div>
 </footer>
 
 
-<script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+
+<div id="review-modal" class="modal fade review-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog review-modal-dialog" role="document">
+        <div class="modal-content review-modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+                <img src="./img/ico-cancel.png" alt="">
+            </button>
+            <div class="review-card review-card-dark review-card-modal">
+                <div class="review-card-header">
+                    <div class="review-card-avatar-wrapper">
+                        <div class="review-card-avatar-wrapper-in">
+                            <img src="./img/ico-avatar-man.png" alt="" class="review-card-avatar">
+                        </div>
+                    </div>
+                    <h3 class="section-title section-title-dark section-title-left review-card-modal-title">Название <br>компании</h3>
+                </div>
+                <div class="review-card-content">
+                    <p class="review-card-author"><span class="review-card-author-name">Имя Фамилия</span>, <span class="review-card-author-position">Должность</span></p>
+                    <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="request-call-modal" class="modal fade request-call-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog request-call-modal-dialog" role="document">
+        <div class="modal-content request-call-modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+                <img src="./img/ico-cancel.png" alt="">
+            </button>
+            <h3 class="section-title section-title-dark">Заказать звонок</h3>
+            <form id="request-call-form" class="request-call-form inline-form" name="request-call-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input id="request-call-name" type="text" name="request-call-name" class="form-control" placeholder="Имя">
+                    </div>
+                    <div class="col-md-6">
+                        <input id="request-call-tel" type="tel" name="request-call-tel" class="form-control" placeholder="Телефон">
+                    </div>
+                </div>
+                <button class="btn btn-default btn-block btn-center submit-btn" type="submit">Отправить</button>
+                <p class="form-disclaimer">Нажимая &laquo;Отправить&raquo; Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
+                            href="">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="js/bootstrap-modal.js"></script>
 <script src="js/slick.min.js"></script>
-<?php if ($GLOBALS["page"] === "reviews") { ?>
-    <script src="swipebox/js/jquery.swipebox.min.js"></script>
-<?php } ?>
+<script src="swipebox/js/jquery.swipebox.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
