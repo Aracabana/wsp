@@ -2917,11 +2917,28 @@ footer {
   left: 50%;
   top: 50%;
   z-index: 1;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
   margin-top: -54px;
   margin-left: -54px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+  border: 13px solid rgba(255, 255, 255, 0.8);
   width: 108px;
   height: 108px;
+  background-clip: content-box;
+  background-color: #ffffff;
   cursor: pointer;
+}
+.text-section .video-wrapper .video-play-btn img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
 }
 .text-section a {
   text-decoration: underline;

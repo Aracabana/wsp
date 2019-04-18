@@ -34,7 +34,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                 Вмдео не поддерживается. Вы можете скачать видео <a href="">здесь</a>.
             </video>
             <button class="video-play-btn">
-                <img src="./img/ico-play.png" alt="">
+                <img src="./img/ico-play.svg" alt="Play">
             </button>
         </div>
     </div>

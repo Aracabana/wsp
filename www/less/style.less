@@ -2432,11 +2432,24 @@ footer {
             left: 50%;
             top: 50%;
             z-index: 1;
+            .box-sizing();
             margin-top: -54px;
             margin-left: -54px;
+            .border-radius(50%);
+            border: 13px solid fade(#ffffff, 80%);
             width: 108px;
             height: 108px;
+            background-clip: content-box;
+            background-color: #ffffff;
             cursor: pointer;
+            img {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+            }
         }
     }
     a {
