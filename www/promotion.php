@@ -43,7 +43,20 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
 <section class="section-inner development-portfolio">
     <div class="container">
         <h2 class="section-title section-title-dark">Портфолио</h2>
-        <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/_portfolio-slider.php"; ?>
+        <div id="js-portfolio-slider-autoplay" class="portfolio-slider slider-dark">
+            <div class="portfolio-slide">
+                <?php require $_SERVER["DOCUMENT_ROOT"] . "/_portfolio-card.php"; ?>
+            </div>
+            <div class="portfolio-slide">
+                <?php require $_SERVER["DOCUMENT_ROOT"] . "/_portfolio-card.php"; ?>
+            </div>
+            <div class="portfolio-slide">
+                <?php require $_SERVER["DOCUMENT_ROOT"] . "/_portfolio-card.php"; ?>
+            </div>
+            <div class="portfolio-slide">
+                <?php require $_SERVER["DOCUMENT_ROOT"] . "/_portfolio-card.php"; ?>
+            </div>
+        </div>
         <a href="portfolio.php" class="btn btn-default btn-block btn-center">Все работы</a>
     </div>
 </section>

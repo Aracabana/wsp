@@ -583,6 +583,7 @@ a.btn-icon-light-inverse,
 a.btn-icon-light {
   line-height: 64px;
 }
+/***contacts-link***/
 .contacts-link {
   font-weight: 500;
   line-height: 1;
@@ -603,7 +604,8 @@ a.btn-icon-light {
 }
 .messenger-link img {
   display: inline-block;
-  margin-bottom: -5px;
+  margin-bottom: -3px;
+  width: 20px;
 }
 .messenger-link:hover,
 .messenger-link:focus,
@@ -950,15 +952,17 @@ header {
 .menu-item:nth-child(2) .menu-link:focus::after,
 .menu-item:first-child .menu-link:active::after,
 .menu-item:nth-child(2) .menu-link:active::after {
-  background-color: #333333;
+  background-color: #00bacf;
 }
 .menu-item:first-child.menu-item-with-submenu::after,
 .menu-item:nth-child(2).menu-item-with-submenu::after {
-  background-image: url("../img/ico-arrow-down-small-blue.png");
+  background-image: url("../img/ico-arrow-down-blue.svg");
+  background-size: 11px 7px;
 }
 .menu-item:first-child.menu-item-with-submenu:hover::after,
 .menu-item:nth-child(2).menu-item-with-submenu:hover::after {
-  background-image: url("../img/ico-arrow-down-small-black.png");
+  background-image: url("../img/ico-arrow-down-black.svg");
+  background-size: 11px 7px;
 }
 .menu-item:first-child.menu-item-with-submenu:hover .menu-link,
 .menu-item:nth-child(2).menu-item-with-submenu:hover .menu-link {
@@ -966,7 +970,7 @@ header {
 }
 .menu-item:first-child.menu-item-with-submenu:hover .menu-link::after,
 .menu-item:nth-child(2).menu-item-with-submenu:hover .menu-link::after {
-  background-color: #333333;
+  background-color: #00bacf;
 }
 .menu-item-with-submenu {
   position: relative;
@@ -982,14 +986,16 @@ header {
   width: 11px;
   height: 7px;
   background-repeat: no-repeat;
-  background-image: url("../img/ico-arrow-down-small-white.png");
+  background-image: url("../img/ico-arrow-down-white.svg");
+  background-size: 11px 7px;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
   transition: all ease 0.3s;
 }
 .menu-item-with-submenu:hover::after {
-  background-image: url("../img/ico-arrow-down-small-black.png");
+  background-image: url("../img/ico-arrow-down-black.svg");
+  background-size: 11px 7px;
 }
 .menu-item-with-submenu:hover .menu-link {
   color: #003f46;
@@ -1006,6 +1012,10 @@ header {
   line-height: 1;
   text-transform: uppercase;
   color: #ffffff;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 .menu-link::after {
   content: '';
@@ -1100,10 +1110,12 @@ header {
   max-width: 925px;
 }
 .menu-wrapper.fixed .menu-item-with-submenu::after {
-  background-image: url("../img/ico-arrow-down-small-black.png");
+  background-image: url("../img/ico-arrow-down-black.png");
+  background-size: 11px 7px;
 }
 .menu-wrapper.fixed .menu-item-with-submenu:hover::after {
-  background-image: url("../img/ico-arrow-down-small-blue.png");
+  background-image: url("../img/ico-arrow-down-blue.svg");
+  background-size: 11px 7px;
 }
 .menu-wrapper.fixed .menu-item-with-submenu:hover .menu-link {
   color: #098f9e;
@@ -1129,6 +1141,9 @@ header {
 .menu-wrapper.fixed .menu-callback-btn {
   opacity: 1;
   visibility: visible;
+}
+.menu-wrapper.fixed .submenu {
+  background-color: rgba(247, 245, 248, 0.9);
 }
 @media (min-width: 992px) {
   .menu-item-with-submenu:hover .submenu {
@@ -1176,7 +1191,8 @@ header {
 }
 .header-inner .menu-item:first-child.menu-item-with-submenu::after,
 .header-inner .menu-item:nth-child(2).menu-item-with-submenu::after {
-  background-image: url("../img/ico-arrow-down-small-black.png");
+  background-image: url("../img/ico-arrow-down-black.svg");
+  background-size: 11px 7px;
 }
 .header-inner .menu-item:first-child.menu-item-with-submenu .menu-link,
 .header-inner .menu-item:nth-child(2).menu-item-with-submenu .menu-link {
@@ -1204,7 +1220,8 @@ header {
 }
 .header-inner .menu-item:first-child.menu-item-with-submenu:hover::after,
 .header-inner .menu-item:nth-child(2).menu-item-with-submenu:hover::after {
-  background-image: url("../img/ico-arrow-down-small-blue.png");
+  background-image: url("../img/ico-arrow-down-blue.svg");
+  background-size: 11px 7px;
 }
 .header-inner .menu-item:first-child.menu-item-with-submenu:hover .menu-link,
 .header-inner .menu-item:nth-child(2).menu-item-with-submenu:hover .menu-link {
@@ -1230,10 +1247,12 @@ header {
   background-color: #00bacf;
 }
 .header-inner .menu-item-with-submenu::after {
-  background-image: url("../img/ico-arrow-down-small-black.png");
+  background-image: url("../img/ico-arrow-down-black.svg");
+  background-size: 11px 7px;
 }
 .header-inner .menu-item-with-submenu:hover::after {
-  background-image: url("../img/ico-arrow-down-small-blue.png");
+  background-image: url("../img/ico-arrow-down-blue.svg");
+  background-size: 11px 7px;
 }
 .header-inner .menu-item-with-submenu:hover .menu-link {
   color: #00bacf;
@@ -1299,21 +1318,24 @@ header {
   bottom: -30px;
   margin-left: -30px;
   background-color: #00c2d9;
-  background-image: url("../img/ico-arrow-down-white.png");
+  background-image: url("../img/ico-arrow-down-white.svg");
+  background-size: 21px 13px;
 }
 .algorithm-step-2::after,
 .algorithm-step-6::after {
   top: 50%;
   left: -30px;
   margin-top: -30px;
-  background-image: url("../img/ico-arrow-left-blue.png");
+  background-image: url("../img/ico-arrow-left-blue.svg");
+  background-size: 13px 21px;
 }
 .algorithm-step-4::after,
 .algorithm-step-8::after {
   top: 50%;
   right: -30px;
   margin-top: -30px;
-  background-image: url("../img/ico-arrow-right-blue.png");
+  background-image: url("../img/ico-arrow-right-blue.svg");
+  background-size: 13px 21px;
 }
 /***Categories***/
 .categories-wrapper {
@@ -1444,10 +1466,11 @@ header {
 #swipebox-bottom-bar,
 #swipebox-top-bar {
   text-shadow: none;
-  background: rgba(247, 245, 248, 0.9);
+  background: transparent;
 }
 #swipebox-bottom-bar {
-  bottom: 0;
+  top: 50%;
+  margin-top: -28px;
   height: 56px;
 }
 #swipebox-bottom-bar.visible-bars {
@@ -1482,7 +1505,7 @@ header {
 }
 #swipebox-close {
   right: 25px;
-  background-image: url("../img/ico-cancel.png");
+  background-image: url("../img/ico-cancel.svg");
   background-size: 32px auto;
 }
 /*=Manager-inner-form=*/
@@ -1675,6 +1698,7 @@ header {
   max-width: 100%;
 }
 .review-card-content {
+  display: block;
   padding: 20px;
   background-color: transparent;
   -webkit-transition: all ease 0.3s;
@@ -1741,6 +1765,9 @@ header {
 }
 .review-card-dark:hover .review-card-text-link {
   color: #ffffff;
+}
+.review-card:hover .review-card-text-link {
+  text-decoration: none;
 }
 .review-card-modal {
   padding-top: 0;
@@ -1898,7 +1925,8 @@ header {
   margin-bottom: 20px;
   padding: 0 15px;
 }
-.tag a {
+.tag a,
+.tag span {
   display: block;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -1917,9 +1945,7 @@ header {
   color: #ffffff;
   background-color: #00bacf;
 }
-.tag a:hover,
-.tag a:active,
-.tag a:focus {
+.tag.active a {
   background-color: #098f9e;
   background-image: -moz-linear-gradient(90deg, #00b9cf 0%, #00e4ff 100%);
   background-image: -webkit-linear-gradient(90deg, #00b9cf 0%, #00e4ff 100%);
@@ -2044,6 +2070,7 @@ footer {
 }
 .modal-close img {
   display: block;
+  width: 32px;
 }
 .review-modal-content {
   padding: 40px 35px 55px;
@@ -3151,11 +3178,12 @@ footer {
     transform: rotate(-45deg);
   }
   .menu-callback-btn {
-    position: static;
+    position: relative;
     visibility: visible;
     display: block;
     margin-top: 0;
     opacity: 1;
+    background-color: #ffffff;
   }
   .menu {
     overflow-y: auto;
@@ -3202,11 +3230,13 @@ footer {
   }
   .menu-item:first-child.menu-item-with-submenu::after,
   .menu-item:nth-child(2).menu-item-with-submenu::after {
-    background-image: url("../img/ico-arrow-down-small-black.png");
+    background-image: url("../img/ico-arrow-down-black.svg");
+    background-size: 11px 7px;
   }
   .menu-item:first-child.menu-item-with-submenu:hover::after,
   .menu-item:nth-child(2).menu-item-with-submenu:hover::after {
-    background-image: url("../img/ico-arrow-down-small-blue.png");
+    background-image: url("../img/ico-arrow-down-blue.png");
+    background-size: 11px 7px;
   }
   .menu-item:first-child.menu-item-with-submenu:hover .menu-link,
   .menu-item:nth-child(2).menu-item-with-submenu:hover .menu-link {
@@ -3222,10 +3252,12 @@ footer {
   .menu-item-with-submenu::after {
     top: 17px;
     margin-top: 0;
-    background-image: url("../img/ico-arrow-down-small-black.png");
+    background-image: url("../img/ico-arrow-down-black.svg");
+    background-size: 11px 7px;
   }
   .menu-item-with-submenu:hover::after {
-    background-image: url("../img/ico-arrow-down-small-blue.png");
+    background-image: url("../img/ico-arrow-down-blue.svg");
+    background-size: 11px 7px;
   }
   .menu-item-with-submenu:hover .menu-link {
     color: #098f9e;

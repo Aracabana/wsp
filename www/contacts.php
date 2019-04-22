@@ -52,7 +52,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                         <textarea name="contacts-text" id="contacts-text" class="form-control" placeholder="Сообщение"></textarea>
                     </div>
                     <p class="form-disclaimer">Нажимая &laquo;Отправить&raquo; Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
-                            href="">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>
+                            href="text-page.php">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>
                     <button class="btn btn-default btn-block btn-center submit-btn" type="submit">Отправить</button>
                 </form>
             </div>

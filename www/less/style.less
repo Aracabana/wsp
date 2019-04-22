@@ -306,8 +306,6 @@ a {
         }
     }
 }
-
-
 a.btn {
     &-icon-dark,
     &-default {
@@ -320,6 +318,7 @@ a.btn {
         line-height: 64px;
     }
 }
+/***contacts-link***/
 .contacts-link {
     font-weight: 500;
     line-height: 1;
@@ -337,7 +336,8 @@ a.btn {
     vertical-align: center;
     img {
         display: inline-block;
-        margin-bottom: -5px;
+        margin-bottom: -3px;
+        width: 20px;
     }
     &:hover, &:focus, &:active {
         opacity: 0.8;
@@ -605,22 +605,24 @@ header {
             &.active, &:hover, &:focus, &:active {
                 color: @text-color-accent;
                 &::after {
-                    background-color: @text-color-dark;
+                    background-color: @accent-color;
                 }
             }
         }
         &.menu-item-with-submenu {
             &::after {
-                background-image: url("../img/ico-arrow-down-small-blue.png");
+                background-image: url("../img/ico-arrow-down-blue.svg");
+                background-size: 11px 7px;
             }
             &:hover {
                 &::after {
-                    background-image: url("../img/ico-arrow-down-small-black.png");
+                    background-image: url("../img/ico-arrow-down-black.svg");
+                    background-size: 11px 7px;
                 }
                 .menu-link {
                     color: @text-color-accent;
                     &::after {
-                        background-color: @text-color-dark;
+                        background-color: @accent-color;
                     }
                 }
             }
@@ -640,12 +642,14 @@ header {
         width: 11px;
         height: 7px;
         background-repeat: no-repeat;
-        background-image: url("../img/ico-arrow-down-small-white.png");
+        background-image: url("../img/ico-arrow-down-white.svg");
+        background-size: 11px 7px;
         .transition();
     }
     &:hover {
         &::after {
-            background-image: url("../img/ico-arrow-down-small-black.png");
+            background-image: url("../img/ico-arrow-down-black.svg");
+            background-size: 11px 7px;
         }
         .menu-link {
             color: @text-color-accent;
@@ -664,6 +668,7 @@ header {
     line-height: 1;
     text-transform: uppercase;
     color: #ffffff;
+    .transition();
     &::after {
         content: '';
         position: absolute;
@@ -740,11 +745,13 @@ header {
     }
     .menu-item-with-submenu {
         &::after {
-            background-image: url("../img/ico-arrow-down-small-black.png");
+            background-image: url("../img/ico-arrow-down-black.png");
+            background-size: 11px 7px;
         }
         &:hover {
             &::after {
-                background-image: url("../img/ico-arrow-down-small-blue.png");
+                background-image: url("../img/ico-arrow-down-blue.svg");
+                background-size: 11px 7px;
             }
             .menu-link {
                 color: @accent-color-dark;
@@ -766,6 +773,9 @@ header {
     .menu-callback-btn {
         opacity: 1;
         visibility: visible;
+    }
+    .submenu {
+        background-color: rgba(247, 245, 248, 0.9);
     }
 }
 @media (min-width: 992px) {
@@ -803,7 +813,8 @@ header {
             }
             &.menu-item-with-submenu {
                 &::after {
-                    background-image: url("../img/ico-arrow-down-small-black.png");
+                    background-image: url("../img/ico-arrow-down-black.svg");
+                    background-size: 11px 7px;
                 }
                 .menu-link {
                     color: @text-color-dark;
@@ -816,7 +827,8 @@ header {
                 }
                 &:hover {
                     &::after {
-                        background-image: url("../img/ico-arrow-down-small-blue.png");
+                        background-image: url("../img/ico-arrow-down-blue.svg");
+                        background-size: 11px 7px;
                     }
                     .menu-link {
                         color: @accent-color;
@@ -839,11 +851,13 @@ header {
     }
     .menu-item-with-submenu {
         &::after {
-            background-image: url("../img/ico-arrow-down-small-black.png");
+            background-image: url("../img/ico-arrow-down-black.svg");
+            background-size: 11px 7px;
         }
         &:hover {
             &::after {
-                background-image: url("../img/ico-arrow-down-small-blue.png");
+                background-image: url("../img/ico-arrow-down-blue.svg");
+                background-size: 11px 7px;
             }
             .menu-link {
                 color: @accent-color;
@@ -913,7 +927,8 @@ header {
             bottom: -30px;
             margin-left: -30px;
             background-color: #00c2d9;
-            background-image: url("../img/ico-arrow-down-white.png");
+            background-image: url("../img/ico-arrow-down-white.svg");
+            background-size: 21px 13px;
         }
     }
     &-2, &-6 {
@@ -921,7 +936,8 @@ header {
             top: 50%;
             left: -30px;
             margin-top: -30px;
-            background-image: url("../img/ico-arrow-left-blue.png");
+            background-image: url("../img/ico-arrow-left-blue.svg");
+            background-size: 13px 21px;
         }
     }
     &-4, &-8 {
@@ -929,7 +945,8 @@ header {
             top: 50%;
             right: -30px;
             margin-top: -30px;
-            background-image: url("../img/ico-arrow-right-blue.png");
+            background-image: url("../img/ico-arrow-right-blue.svg");
+            background-size: 13px 21px;
         }
     }
 }
@@ -1065,10 +1082,11 @@ header {
 }
 #swipebox-bottom-bar, #swipebox-top-bar {
     text-shadow: none;
-    background: rgba(247, 245, 248, 0.9);
+    background: transparent;
 }
 #swipebox-bottom-bar {
-    bottom: 0;
+    top: 50%;
+    margin-top: -28px;
     height: 56px;
 }
 #swipebox-bottom-bar.visible-bars {
@@ -1097,7 +1115,7 @@ header {
 }
 #swipebox-close {
     right: 25px;
-    background-image: url("../img/ico-cancel.png");
+    background-image: url("../img/ico-cancel.svg");
     background-size: 32px auto;
 }
 /*=Manager-inner-form=*/
@@ -1276,6 +1294,7 @@ header {
         max-width: 100%;
     }
     &-content {
+        display: block;
         padding: 20px;
         background-color: transparent;
         .transition();
@@ -1343,6 +1362,11 @@ header {
             .review-card-text-link {
                 color: #ffffff;
             }
+        }
+    }
+    &:hover {
+        .review-card-text-link {
+            text-decoration: none;
         }
     }
 }
@@ -1491,7 +1515,7 @@ header {
     overflow: hidden;
     margin-bottom: 20px;
     padding: 0 15px;
-    a {
+    a, span {
         display: block;
         .box-sizing();
         .border-radius(23px);
@@ -1505,7 +1529,9 @@ header {
         white-space: nowrap;
         color: #ffffff;
         background-color: @accent-color;
-        &:hover, &:active, &:focus {
+    }
+    &.active {
+        a {
             background-color: @accent-color-dark;
             background-image: -moz-linear-gradient( 90deg, rgb(0,185,207) 0%, rgb(0,228,255) 100%);
             background-image: -webkit-linear-gradient( 90deg, rgb(0,185,207) 0%, rgb(0,228,255) 100%);
@@ -1621,6 +1647,7 @@ footer {
     }
     img {
         display: block;
+        width: 32px;
     }
 }
 .review-modal-content {

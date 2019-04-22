@@ -190,44 +190,44 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                 <div class="review-card review-card-light">
                     <div class="review-card-avatar-wrapper">
                         <div class="review-card-avatar-wrapper-in">
-                            <img src="./img/ico-avatar-man.png" alt="" class="review-card-avatar">
+                            <img src="./img/ico-avatar-man.svg" alt="" class="review-card-avatar" style="width: 54px;">
                         </div>
                     </div>
-                    <div class="review-card-content">
+                    <a href="" class="review-card-content" data-href="#review-modal" data-toggle="modal" data-target="#review-modal">
                         <p class="review-card-company-name">Название компании</p>
                         <p class="review-card-author"><span class="review-card-author-name">Имя Фамилия</span>, <span class="review-card-author-position">Должность</span></p>
                         <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <a href="#" class="review-card-text-link" data-href="#review-modal" data-toggle="modal" data-target="#review-modal">Подробнее</a>.</p>
-                    </div>
+                            <span class="review-card-text-link">Подробнее</span>.</p>
+                    </a>
                 </div>
             </div>
             <div class="review-slide">
                 <div class="review-card review-card-light">
                     <div class="review-card-avatar-wrapper">
                         <div class="review-card-avatar-wrapper-in">
-                            <img src="./img/ico-avatar-woman.png" alt="" class="review-card-avatar">
+                            <img src="./img/ico-avatar-woman.svg" alt="" class="review-card-avatar" style="width: 52px;">
                         </div>
                     </div>
-                    <div class="review-card-content">
+                    <a href="" class="review-card-content" data-href="#review-modal" data-toggle="modal" data-target="#review-modal">
                         <p class="review-card-author"><span class="review-card-author-name">Имя Фамилия</span></p>
                         <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <a href="#" class="review-card-text-link" data-href="#review-modal" data-toggle="modal" data-target="#review-modal">Подробнее</a>.</p>
-                    </div>
+                            <span class="review-card-text-link">Подробнее</span>.</p>
+                    </a>
                 </div>
             </div>
             <div class="review-slide">
                 <div class="review-card review-card-light">
                     <div class="review-card-avatar-wrapper">
                         <div class="review-card-avatar-wrapper-in">
-                            <img src="./img/ico-avatar-man.png" alt="" class="review-card-avatar">
+                            <img src="./img/img-review-logo.png" alt="" class="review-card-avatar">
                         </div>
                     </div>
-                    <div class="review-card-content">
+                    <a href="" class="review-card-content" data-href="#review-modal" data-toggle="modal" data-target="#review-modal">
                         <p class="review-card-company-name">Название компании</p>
                         <p class="review-card-author"><span class="review-card-author-name">Имя Фамилия</span>, <span class="review-card-author-position">Должность</span></p>
                         <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                            <a href="#" class="review-card-text-link" data-href="#review-modal" data-toggle="modal" data-target="#review-modal">Подробнее</a>.</p>
-                    </div>
+                            <span class="review-card-text-link">Подробнее</span>.</p>
+                    </a>
                 </div>
             </div>
         </div>

@@ -31,7 +31,7 @@
                 <ul class="footer-menu">
                     <li class="footer-menu-item">
                         <a class="footer-menu-link" href="development.php">Сайт компании визитка</a>
-                    </li class="footer-menu-item">
+                    </li>
                     <li class="footer-menu-item">
                         <a class="footer-menu-link" href="development.php">Корпоративный сайт</a>
                     </li>
@@ -63,13 +63,13 @@
                 <a class="footer-contacts-link footer-phone-link phone-link contacts-link"
                    href="tel:+74956541236"><span>+7 (495) 654 12 36</a>
                 <a href="whatsapp://send?phone=74956541236" class="messenger-link">
-                    <img src="./img/ico-whatsapp.png" alt="Whatsapp">
+                    <img src="./img/ico-whatsapp.png" alt="Whatsapp" class="messenger-link-whatsapp-img">
                 </a>
                 <a href="viber://chat?number=+74956541236" class="messenger-link">
-                    <img src="./img/ico-viber.png" alt="Viber">
+                    <img src="./img/ico-viber.png" alt="Viber" class="messenger-link-viber-img">
                 </a>
                 <a href="tg://resolve?domain=имя" class="messenger-link">
-                    <img src="./img/ico-telegram.png" alt="Telegram">
+                    <img src="./img/ico-telegram.png" alt="Telegram" class="messenger-link-telegram-img">
                 </a>
             </p>
             <p class="footer-contacts-item">
@@ -87,13 +87,13 @@
     <div class="modal-dialog review-modal-dialog" role="document">
         <div class="modal-content review-modal-content">
             <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
-                <img src="./img/ico-cancel.png" alt="">
+                <img src="./img/ico-cancel.svg" alt="">
             </button>
             <div class="review-card review-card-dark review-card-modal">
                 <div class="review-card-header">
                     <div class="review-card-avatar-wrapper">
                         <div class="review-card-avatar-wrapper-in">
-                            <img src="./img/ico-avatar-man.png" alt="" class="review-card-avatar">
+                            <img src="./img/ico-avatar-man.svg" alt="" class="review-card-avatar"  style="width: 54px;">
                         </div>
                     </div>
                     <h3 class="section-title section-title-dark section-title-left review-card-modal-title">Название <br>компании</h3>
@@ -112,7 +112,7 @@
     <div class="modal-dialog request-call-modal-dialog" role="document">
         <div class="modal-content request-call-modal-content">
             <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
-                <img src="./img/ico-cancel.png" alt="">
+                <img src="./img/ico-cancel.svg" alt="">
             </button>
             <h3 class="section-title section-title-dark">Заказать звонок</h3>
             <form id="request-call-form" class="request-call-form inline-form" name="request-call-form">
@@ -124,9 +124,9 @@
                         <input id="request-call-tel" type="tel" name="request-call-tel" class="form-control" placeholder="Телефон">
                     </div>
                 </div>
-                <button class="btn btn-default btn-block btn-center submit-btn" type="submit">Отправить</button>
-                <p class="form-disclaimer">Нажимая &laquo;Отправить&raquo; Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
-                            href="">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>
+                <button class="btn btn-default btn-block btn-center submit-btn" type="submit">Перезвоните</button>
+                <p class="form-disclaimer">Нажимая &laquo;Перезвоните&raquo; Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
+                            href="text-page.php">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>
             </form>
         </div>
     </div>

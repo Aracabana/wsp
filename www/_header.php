@@ -58,7 +58,7 @@
                     <a href="about-us.php" class="menu-link<?php if ($GLOBALS["page"] === "about") { ?> active<?php } ?>">О студии</a>
                 </li>
                 <li class="menu-item menu-item-with-submenu">
-                    <a href="" class="menu-link js-submenu-item<?php if ($GLOBALS["page"] === "development") { ?> active<?php } ?>">Разработка <span>сайта</span></a>
+                    <span class="menu-link js-submenu-item<?php if ($GLOBALS["page"] === "development") { ?> active<?php } ?>">Разработка сайта</span>
                     <ul class="submenu js-submenu">
                         <li class="submenu-item">
                             <a href="development.php" class="submenu-link">Сайт компании</a>
@@ -81,7 +81,7 @@
                     </ul>
                 </li>
                 <li class="menu-item menu-item-with-submenu">
-                    <a href="" class="menu-link js-submenu-item<?php if ($GLOBALS["page"] === "promotion") { ?> active<?php } ?>">Продвижение</a>
+                    <span class="menu-link js-submenu-item<?php if ($GLOBALS["page"] === "promotion") { ?> active<?php } ?>">Продвижение</span>
                     <ul class="submenu js-submenu">
                         <li class="submenu-item">
                             <a href="promotion.php" class="submenu-link">Сео продвижение</a>

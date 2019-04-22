@@ -17,7 +17,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                     <img src="./img/ico-search.svg" alt="Поиск">
                 </button>
             </form>
-            <p class="tag"><a href="">Интернет-магазин</a></p>
+            <p class="tag active"><a href="">Интернет-магазин</a></p>
             <p class="tag"><a href="">ui desing</a></p>
             <p class="tag"><a href="">другая тегга может быть длинной</a></p>
             <p class="tag"><a href="">landing page</a></p>

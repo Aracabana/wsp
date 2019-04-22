@@ -188,11 +188,12 @@
         }
     }
     .menu-callback-btn {
-        position: static;
+        position: relative;
         visibility: visible;
         display: block;
         margin-top: 0;
         opacity: 1;
+        background-color: #ffffff;
     }
     .menu {
         overflow-y: auto;
@@ -223,11 +224,13 @@
             }
             &.menu-item-with-submenu {
                 &::after {
-                    background-image: url("../img/ico-arrow-down-small-black.png");
+                    background-image: url("../img/ico-arrow-down-black.svg");
+                    background-size: 11px 7px;
                 }
                 &:hover {
                     &::after {
-                        background-image: url("../img/ico-arrow-down-small-blue.png");
+                        background-image: url("../img/ico-arrow-down-blue.png");
+                        background-size: 11px 7px;
                     }
                     .menu-link {
                         color: @accent-color-dark;
@@ -244,11 +247,13 @@
         &::after {
             top: 17px;
             margin-top: 0;
-            background-image: url("../img/ico-arrow-down-small-black.png");
+            background-image: url("../img/ico-arrow-down-black.svg");
+            background-size: 11px 7px;
         }
         &:hover {
             &::after {
-                background-image: url("../img/ico-arrow-down-small-blue.png");
+                background-image: url("../img/ico-arrow-down-blue.svg");
+                background-size: 11px 7px;
             }
             .menu-link {
                 color: @accent-color-dark;

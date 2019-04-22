@@ -19,8 +19,8 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                 <div class="site-info">
                     <h3 class="site-name"><span>RIBONI GROUP</span> - Представительство итальянских мебельных фабрик.</h3>
                     <div class="site-tags-wrapper">
-                        <p class="tag"><a href="">Сайт-визитка</a></p>
-                        <p class="tag"><a href="">Сайт под ключ</a></p>
+                        <p class="tag"><span>Сайт-визитка</span></p>
+                        <p class="tag"><span>Сайт под ключ</span></p>
                     </div>
                     <div class="site-info-text">
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>

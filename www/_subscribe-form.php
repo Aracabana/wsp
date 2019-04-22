@@ -17,7 +17,7 @@
                     </div>
                 </form>
                 <p class="form-disclaimer">Нажимая &laquo;Отправить&raquo; Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
-                        href="">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>
+                        href="text-page.php">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>
             </div>
         </div>
         <img src="./img/img-subscribe.png" alt="" class="subscribe-img">
