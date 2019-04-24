@@ -1121,6 +1121,7 @@ header {
 /*=Manager-inner-form=*/
 .manager-inner {
     padding: 60px 0;
+    background-color: #fbfafb;
     background-image: url("../img/bg-manager-inner.png");
     background-repeat: no-repeat;
     background-position: center top;
@@ -1479,7 +1480,8 @@ header {
     padding-bottom: 55px;
     background-repeat: no-repeat;
     background-position: top center;
-    background-image: url("../img/bg-subscribe.png");
+    background-image: url("../img/bg-subscribe.svg");
+    background-size: 1920px 445px;
     &-container {
         position: relative;
     }
@@ -1667,7 +1669,8 @@ footer {
     overflow: hidden;
     padding-top: 220px;
     padding-bottom: 125px;
-    background-image: url("../img/bg-home-welcome.png");
+    background-image: url("../img/bg-home-welcome.svg");
+    //background-size: 1920px 884px;
     background-size: cover;
 }
 .home-welcome-container {
@@ -1783,10 +1786,14 @@ footer {
     text-align: center;
 }
 /***Development***/
+.home-work {
+    background-image: url("../img/bg-home-work.svg");
+    background-position: center bottom;
+    background-size: 1920px auto;
+    background-repeat: no-repeat;
+}
 .home-development {
     padding-top: 50px;
-    background-image: url("../img/bg-home-development.png");
-    background-position: center bottom;
 }
 .home-development-card {
     display: block;
@@ -1796,7 +1803,7 @@ footer {
     background-position: left bottom;
     background-size: 100% auto;
     &:hover, &:active, &:focus {
-        background-image: url("../img/bg-home-development-card.png");
+        background-image: url("../img/bg-home-development-card.svg");
     }
 }
 .home-development-title {
@@ -1820,8 +1827,7 @@ footer {
 /***Promotion***/
 .home-promotion {
     min-height: 573px;
-    padding: 23px 0 143px;
-    background-image: url("../img/bg-home-promotion.png");
+    padding: 23px 0 109px;
 }
 .home-promotion-img {
     display: block;
@@ -1889,30 +1895,36 @@ footer {
 }
 /***Algorithm***/
 .home-algorithm {
-    padding-top: 23px;
+    margin-top: -61px;
+    padding-top: 115px;
     padding-bottom: 75px;
     background-repeat: no-repeat;
-    background-image: url("../img/bg-home-algorithm.png");
-    background-position: center 181px;
+    background-image: url("../img/bg-home-algorithm.svg");
+    background-position: center top;
+    background-size: 1749px auto;
 }
 /***Manager***/
 .home-manager {
     margin-top: -120px;
     padding: 270px 0 135px;
-    background-image: url("../img/bg-home-manager-form.png");
+    background-image: url("../img/bg-home-manager-form-img.png"), url("../img/bg-home-manager-form.svg");
+    background-size: auto auto, 1920px auto;
+    background-position: center 85px, center top;
 }
 /***Portfolio***/
 .home-portfolio {
     padding-top: 30px;
     padding-bottom: 25px;
     background-position: center 15px;
-    background-image: url("../img/bg-home-portfolio.png");
+    background-image: url("../img/bg-home-portfolio.svg");
+    background-size: 1920px auto;
 }
 /***Reviews***/
 .home-reviews {
+    margin-top: -57px;
     padding-top: 165px;
     padding-bottom: 150px;
-    background-image: url("../img/bg-home-reviews.png");
+    background-image: url("../img/bg-home-reviews.svg");
     background-size: cover;
 }
 .reviews-slider {
@@ -1932,8 +1944,10 @@ footer {
 }
 /***Articles***/
 .home-articles {
+    margin-top: -35px;
     padding-bottom: 20px;
-    background-image: url("../img/bg-home-articles.png");
+    background-image: url("../img/bg-home-articles.svg");
+    background-size: 1920px auto;
     background-position: center 60px;
 }
 .articles-slider {
@@ -2082,7 +2096,8 @@ footer {
 }
 .development-algorithm {
     padding-top: 110px;
-    background-image: url("../img/bg-algorithm.png");
+    background-image: url("../img/bg-algorithm.svg");
+    background-size: auto 1070px;
 }
 .development-list {
     li {
@@ -2151,6 +2166,12 @@ footer {
     background-color: @accent-color;
 }
 /*=PORTFOLIO=*/
+.portfolio-page {
+    background-image: url("../img/bg-portfolio.svg");
+    background-position: center 16px;
+    background-size: 1920px 621px;
+    background-repeat: no-repeat;
+}
 .portfolio-card-wrapper {
     margin-bottom: 45px;
 }

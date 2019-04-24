@@ -75,83 +75,85 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
         </div>
     </div>
 </section>
-<section class="home-section home-development">
-    <div class="container">
-        <h2 class="section-title section-title-dark">Разработка сайтов</h2>
-        <div class="row">
-            <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
-                <a class="home-development-card">
-                    <h3 class="title-h3 home-development-title">Сайт компании визитка</h3>
-                    <div class="home-development-ico-wrapper">
-                        <img src="./img/ico-home-dev-1.png" alt="" class="home-development-ico">
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
-                <a href="" class="home-development-card">
-                    <h3 class="title-h3 home-development-title">Корпоративный сайт</h3>
-                    <div class="home-development-ico-wrapper">
-                        <img src="./img/ico-home-dev-2.png" alt="" class="home-development-ico">
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
-                <a href="" class="home-development-card">
-                    <h3 class="title-h3 home-development-title">Сайт каталог</h3>
-                    <div class="home-development-ico-wrapper">
-                        <img src="./img/ico-home-dev-3.png" alt="" class="home-development-ico">
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
-                <a href="" class="home-development-card">
-                    <h3 class="title-h3 home-development-title">Интернет магазин</h3>
-                    <div class="home-development-ico-wrapper">
-                        <img src="./img/ico-home-dev-4.png" alt="" class="home-development-ico">
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
-                <a href="" class="home-development-card">
-                    <h3 class="title-h3 home-development-title">Landing Page</h3>
-                    <div class="home-development-ico-wrapper">
-                        <img src="./img/ico-home-dev-5.png" alt="" class="home-development-ico">
-                    </div>
-                </a>
-            </div>
-            <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
-                <a href="" class="home-development-card">
-                    <h3 class="title-h3 home-development-title">Другое</h3>
-                    <div class="home-development-ico-wrapper">
-                        <img src="./img/ico-home-dev-6.png" alt="" class="home-development-ico">
-                    </div>
-                </a>
+<div class="home-work">
+    <section class="home-section home-development">
+        <div class="container">
+            <h2 class="section-title section-title-dark">Разработка сайтов</h2>
+            <div class="row">
+                <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
+                    <a class="home-development-card">
+                        <h3 class="title-h3 home-development-title">Сайт компании визитка</h3>
+                        <div class="home-development-ico-wrapper">
+                            <img src="./img/ico-home-dev-1.png" alt="" class="home-development-ico">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
+                    <a href="" class="home-development-card">
+                        <h3 class="title-h3 home-development-title">Корпоративный сайт</h3>
+                        <div class="home-development-ico-wrapper">
+                            <img src="./img/ico-home-dev-2.png" alt="" class="home-development-ico">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
+                    <a href="" class="home-development-card">
+                        <h3 class="title-h3 home-development-title">Сайт каталог</h3>
+                        <div class="home-development-ico-wrapper">
+                            <img src="./img/ico-home-dev-3.png" alt="" class="home-development-ico">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
+                    <a href="" class="home-development-card">
+                        <h3 class="title-h3 home-development-title">Интернет магазин</h3>
+                        <div class="home-development-ico-wrapper">
+                            <img src="./img/ico-home-dev-4.png" alt="" class="home-development-ico">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
+                    <a href="" class="home-development-card">
+                        <h3 class="title-h3 home-development-title">Landing Page</h3>
+                        <div class="home-development-ico-wrapper">
+                            <img src="./img/ico-home-dev-5.png" alt="" class="home-development-ico">
+                        </div>
+                    </a>
+                </div>
+                <div class="col-12 col-sm-6 col-lg-4 card-wrapper">
+                    <a href="" class="home-development-card">
+                        <h3 class="title-h3 home-development-title">Другое</h3>
+                        <div class="home-development-ico-wrapper">
+                            <img src="./img/ico-home-dev-6.png" alt="" class="home-development-ico">
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
-<section class="home-section home-promotion">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-6">
-                <img src="./img/img-home-promotion.png" alt="" class="home-promotion-img">
-            </div>
-            <div class="col-lg-6">
-                <div class="home-promotion-content">
-                    <h2 class="section-title section-title-light section-title-left">Продвижение</h2>
-                    <div class="home-promotion-links">
-                        <a href="" class="home-promotion-link home-promotion-link-1">
-                            <h3 class="title-h3 title-h3-white home-promotion-link-title">СЕО продвижение</h3>
-                        </a>
-                        <a href="" class="home-promotion-link home-promotion-link-2">
-                            <h3 class="title-h3 title-h3-white home-promotion-link-title">Контекстная реклама</h3>
-                        </a>
+    </section>
+    <section class="home-section home-promotion">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <img src="./img/img-home-promotion.png" alt="" class="home-promotion-img">
+                </div>
+                <div class="col-lg-6">
+                    <div class="home-promotion-content">
+                        <h2 class="section-title section-title-light section-title-left">Продвижение</h2>
+                        <div class="home-promotion-links">
+                            <a href="" class="home-promotion-link home-promotion-link-1">
+                                <h3 class="title-h3 title-h3-white home-promotion-link-title">СЕО продвижение</h3>
+                            </a>
+                            <a href="" class="home-promotion-link home-promotion-link-2">
+                                <h3 class="title-h3 title-h3-white home-promotion-link-title">Контекстная реклама</h3>
+                            </a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+</div>
 <section class="home-section home-algorithm">
     <?php require_once $_SERVER["DOCUMENT_ROOT"] . "/_algorithm.php"; ?>
 </section>
