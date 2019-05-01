@@ -13,7 +13,7 @@
   <link rel="stylesheet" href="css/bootstrap-grid-validation-modal-tabs-print.css">
   <link rel="stylesheet" href="css/slick.css">
     <?php if ($GLOBALS["page"] === "reviews") { ?>
-        <link rel="stylesheet" href="swipebox/css/swipebox.css">
+        <link rel="stylesheet" href="swipebox/swipebox.css">
     <?php } ?>
   <link rel="stylesheet" href="css/style.css">
 </head>

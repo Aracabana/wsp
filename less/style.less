@@ -739,13 +739,13 @@ header {
     top: 0;
     left: 0;
     right: 0;
-    background-color: @bg-color-dark;
+    background-color: fade(@bg-color-dark, 90%);
     .menu {
         max-width: 925px;
     }
     .menu-item-with-submenu {
         &::after {
-            background-image: url("../img/ico-arrow-down-black.png");
+            background-image: url("../img/ico-arrow-down-black.svg");
             background-size: 11px 7px;
         }
         &:hover {

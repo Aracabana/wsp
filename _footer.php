@@ -135,7 +135,7 @@
         integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
 <script src="js/bootstrap-modal.js"></script>
 <script src="js/slick.min.js"></script>
-<script src="swipebox/js/jquery.swipebox.min.js"></script>
+<script src="swipebox/jquery.swipebox.min.js"></script>
 <script src="js/main.js"></script>
 </body>
 </html>
