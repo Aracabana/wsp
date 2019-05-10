@@ -2374,7 +2374,6 @@ footer {
 .map-wrapper {
     margin-top: 55px;
 }
-
 /*=TEXT-PAGE=*/
 .text-section {
     color: @text-color-dark;
@@ -2510,6 +2509,38 @@ footer {
     &-block {
         overflow: hidden;
         margin-bottom: 40px;
+    }
+}
+/*=ERROR=*/
+.error-content {
+    border-bottom: 1px solid #F7F5F8;
+    padding-top: 220px;
+    padding-bottom: 85px;
+    text-align: center;
+    background-position: center top;
+    background-repeat: no-repeat;
+    p {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 1.5;
+    }
+    p + p {
+        margin-top: 25px;
+    }
+}
+.error-title {
+    margin-bottom: 80px;
+    font-weight: bold;
+    font-size: 300px;
+    line-height: 0.85;
+    font-family: 'Comic Sans MS', 'Roboto', sans-serif;
+    color: @accent-color;
+}
+.error-link {
+    color: @accent-color;
+    text-decoration: underline;
+    &:hover, &:active, &:focus {
+        text-decoration: none;
     }
 }
 

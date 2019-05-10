@@ -2025,7 +2025,7 @@ footer {
   background-color: #F7F5F8;
 }
 .modal-backdrop.in {
-  opacity: 0.9;
+  opacity: 0.90;
 }
 .modal-dialog {
   margin-left: auto;
@@ -3000,6 +3000,40 @@ footer {
   overflow: hidden;
   margin-bottom: 40px;
 }
+/*=ERROR=*/
+.error-content {
+  border-bottom: 1px solid #F7F5F8;
+  padding-top: 220px;
+  padding-bottom: 85px;
+  text-align: center;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+.error-content p {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 1.5;
+}
+.error-content p + p {
+  margin-top: 25px;
+}
+.error-title {
+  margin-bottom: 80px;
+  font-weight: bold;
+  font-size: 300px;
+  line-height: 0.85;
+  font-family: 'Comic Sans MS', 'Roboto', sans-serif;
+  color: #00bacf;
+}
+.error-link {
+  color: #00bacf;
+  text-decoration: underline;
+}
+.error-link:hover,
+.error-link:active,
+.error-link:focus {
+  text-decoration: none;
+}
 /*==========RESPONSIVE==========*/
 @media (max-width: 1199px) {
   /*=HEADER=*/
@@ -3085,6 +3119,10 @@ footer {
   /*=PORTFOLIO_INNER=*/
   .site-link-btn {
     margin-top: 50px;
+  }
+  /*=ERROR=*/
+  .error-content p {
+    font-size: 28px;
   }
 }
 @media (max-width: 991px) {
@@ -3398,6 +3436,13 @@ footer {
     padding-top: 40px;
     max-width: none;
   }
+  /*=ERROR=*/
+  .error-content p {
+    font-size: 20px;
+  }
+  .error-title {
+    font-size: 240px;
+  }
   /*=HOME=*/
   /***Welcome***/
   .home-welcome-content-wrapper {
@@ -3603,6 +3648,14 @@ footer {
     -ms-flex-pack: center;
     justify-content: center;
   }
+  /*=ERROR=*/
+  .error-content p + p {
+    margin-top: 15px;
+  }
+  .error-title {
+    margin-bottom: 60px;
+    font-size: 200px;
+  }
 }
 @media (max-width: 575px) {
   /*=TEXT=*/
@@ -3803,6 +3856,13 @@ footer {
   .site-name {
     font-size: 20px;
   }
+  /*=ERROR=*/
+  .error-content p {
+    font-size: 18px;
+  }
+  .error-title {
+    font-size: 180px;
+  }
 }
 @media (max-width: 380px) {
   /*=PORTFOLIO=*/
@@ -3815,6 +3875,14 @@ footer {
   .portfolio-card-wrapper .portfolio-card-img-wrapper {
     width: 187px;
     height: 118px;
+  }
+  /*=ERROR=*/
+  .error-content p {
+    font-size: 18px;
+  }
+  .error-title {
+    margin-bottom: 50px;
+    font-size: 150px;
   }
 }
 @media (max-width: 360px) {

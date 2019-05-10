@@ -39,7 +39,7 @@ $(document).ready(function () {
     });
     
     //portfolio-slider
-    if ($('#js-portfolio-slider')) {
+    if ($('*').is('#js-portfolio-slider')) {
         $('#js-portfolio-slider').slick({
             infinite: true,
             slidesToShow: 3,
@@ -62,7 +62,7 @@ $(document).ready(function () {
     }
     
     //portfolio-slider-autoplay
-    if ($('#js-portfolio-slider-autoplay')) {
+    if ($('*').is('#js-portfolio-slider-autoplay')) {
         $('#js-portfolio-slider-autoplay').slick({
             infinite: true,
             slidesToShow: 3,
@@ -88,7 +88,7 @@ $(document).ready(function () {
     }
     
     //reviews-slider
-    if ($('#js-reviews-slider')) {
+    if ($('*').is('#js-reviews-slider')) {
         $('#js-reviews-slider').slick({
             infinite: true,
             slidesToShow: 2,
@@ -108,7 +108,7 @@ $(document).ready(function () {
     }
     
     //portfolio-slider
-    if ($('#js-articles-slider')) {
+    if ($('*').is('#js-articles-slider')) {
         $('#js-articles-slider').slick({
             infinite: true,
             slidesToShow: 3,
@@ -144,7 +144,7 @@ $(document).ready(function () {
     });
     
     //review letters
-    if ($('.swipebox')) {
+    if ($('*').is('.swipebox')) {
         $( '.swipebox' ).swipebox( {
             useCSS : true,
             useSVG : false,
