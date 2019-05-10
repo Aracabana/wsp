@@ -132,7 +132,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                 <div class="col-xl-6">
                     <div class="row">
                         <div class="col-md-6 form-group">
-                            <input id="review-name" type="text" name="review-name" class="form-control" placeholder="Имя">
+                            <input id="review-name" type="text" name="review-name" class="form-control" placeholder="Имя" required>
                         </div>
                         <div class="col-md-6 form-group">
                             <input id="review-tel" type="tel" name="review-tel" class="form-control" placeholder="Телефон">
@@ -150,7 +150,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                     </div>
                 </div>
                 <div class="col-xl-6 form-group">
-                    <textarea name="review-text" id="review-text" class="form-control" placeholder="Текст отзыва"></textarea>
+                    <textarea name="review-text" id="review-text" class="form-control" placeholder="Текст отзыва" required></textarea>
                 </div>
             </div>
             <p class="form-disclaimer form-disclaimer-big">Нажимая &laquo;Отправить&raquo; Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a href="">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>

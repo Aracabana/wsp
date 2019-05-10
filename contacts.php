@@ -39,7 +39,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                     <h3 class="title-h2">Форма обратной связи</h3>
                     <div class="row">
                         <div class="col-xl-6 form-group">
-                            <input id="contacts-name" type="text" name="contacts-name" class="form-control" placeholder="Имя">
+                            <input id="contacts-name" type="text" name="contacts-name" class="form-control" placeholder="Имя" required>
                         </div>
                         <div class="col-xl-6 form-group">
                             <input id="contacts-tel" type="tel" name="contacts-tel" class="form-control" placeholder="Телефон">
@@ -49,7 +49,7 @@ require_once $_SERVER["DOCUMENT_ROOT"] . "/_header.php"; ?>
                         <input id="contacts-email" type="email" name="contacts-email" class="form-control" placeholder="E-mail">
                     </div>
                     <div class="form-group">
-                        <textarea name="contacts-text" id="contacts-text" class="form-control" placeholder="Сообщение"></textarea>
+                        <textarea name="contacts-text" id="contacts-text" class="form-control" placeholder="Сообщение" required></textarea>
                     </div>
                     <p class="form-disclaimer">Нажимая &laquo;Отправить&raquo; Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
                             href="text-page.php">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>

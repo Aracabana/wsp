@@ -118,7 +118,7 @@
             <form id="request-call-form" class="request-call-form inline-form" name="request-call-form">
                 <div class="row">
                     <div class="col-md-6">
-                        <input id="request-call-name" type="text" name="request-call-name" class="form-control" placeholder="Имя">
+                        <input id="request-call-name" type="text" name="request-call-name" class="form-control" placeholder="Имя" required>
                     </div>
                     <div class="col-md-6">
                         <input id="request-call-tel" type="tel" name="request-call-tel" class="form-control" placeholder="Телефон">
