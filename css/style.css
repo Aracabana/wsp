@@ -418,8 +418,11 @@ a:focus {
   color: #ffffff;
   background-color: #098f9e;
   background-image: -moz-linear-gradient(90deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #00e4ff), color-stop(100%, #00b9cf));
   background-image: -webkit-linear-gradient(90deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -o-linear-gradient(90deg, #00b9cf 0%, #00e4ff 100%);
   background-image: -ms-linear-gradient(90deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: linear-gradient(0deg, #00b9cf 0%, #00e4ff 100%);
 }
 .btn-default-light {
   border: 1px solid #ffffff;
@@ -500,8 +503,11 @@ a:focus {
 .btn-icon-dark:active::after,
 .btn-icon-dark:hover::after {
   background-image: -moz-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #00e4ff), color-stop(100%, #00b9cf));
   background-image: -webkit-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -o-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
   background-image: -ms-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: linear-gradient(321deg, #00b9cf 0%, #00e4ff 100%);
 }
 .btn-icon-light {
   line-height: 64px;
@@ -518,8 +524,11 @@ a:focus {
   right: 1px;
   top: 1px;
   background-image: -moz-linear-gradient(129deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #ffffff), color-stop(100%, rgba(255, 255, 255, 0)));
   background-image: -webkit-linear-gradient(129deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: -o-linear-gradient(129deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
   background-image: -ms-linear-gradient(129deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  background-image: linear-gradient(321deg, rgba(255, 255, 255, 0) 0%, #ffffff 100%);
 }
 .btn-icon-light:focus,
 .btn-icon-light:active,
@@ -532,8 +541,11 @@ a:focus {
 .btn-icon-light:hover::after {
   background-color: #00b9cf;
   background-image: -moz-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #00e4ff), color-stop(100%, #00b9cf));
   background-image: -webkit-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -o-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
   background-image: -ms-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: linear-gradient(321deg, #00b9cf 0%, #00e4ff 100%);
 }
 .btn-icon-light-inverse {
   border: 1px solid #00c2d9;
@@ -548,8 +560,11 @@ a:focus {
   top: 1px;
   background-color: #00b9cf;
   background-image: -moz-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #00e4ff), color-stop(100%, #00b9cf));
   background-image: -webkit-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -o-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
   background-image: -ms-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: linear-gradient(321deg, #00b9cf 0%, #00e4ff 100%);
 }
 .btn-icon-light-inverse::before {
   right: 1px;
@@ -570,8 +585,11 @@ a:focus {
 .btn-icon-light-inverse:hover::after {
   background-color: #00b9cf;
   background-image: -moz-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -webkit-gradient(linear, left top, right bottom, color-stop(0%, #00e4ff), color-stop(100%, #00b9cf));
   background-image: -webkit-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: -o-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
   background-image: -ms-linear-gradient(129deg, #00b9cf 0%, #00e4ff 100%);
+  background-image: linear-gradient(321deg, #00b9cf 0%, #00e4ff 100%);
 }
 a.btn-icon-dark,
 a.btn-default {
