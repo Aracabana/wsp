@@ -1,0 +1,27 @@
+<svg width="1167" height="486" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient y2="0%" y1="100%" x2="0%" x1="0%" id="PSgrad_0">
+   <stop stop-color="rgb(93,198,5)" offset="0%"/>
+   <stop stop-color="rgb(17,244,103)" offset="100%"/>
+  </linearGradient>
+  <linearGradient y2="0%" y1="100%" x2="0%" x1="0%" id="PSgrad_1">
+   <stop stop-color="rgb(255,119,0)" offset="0%"/>
+   <stop stop-color="rgb(255,204,0)" offset="100%"/>
+  </linearGradient>
+  <linearGradient y2="0%" y1="100%" x2="0%" x1="0%" id="PSgrad_2">
+   <stop stop-color="rgb(0,185,207)" offset="0%"/>
+   <stop stop-color="rgb(0,228,255)" offset="100%"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="488" width="1169" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path id="svg_1" d="m136,290c54.124,0 98,43.876 98,98c0,54.124 -43.876,98 -98,98c-54.124,0 -98,-43.876 -98,-98c0,-54.124 43.876,-98 98,-98z" fill="url(#PSgrad_0)" fill-rule="evenodd"/>
+  <path id="svg_2" d="m885,2c72.349,0 131,58.651 131,131c0,72.349 -58.651,131 -131,131c-72.349,0 -131,-58.651 -131,-131c0,-72.349 58.651,-131 131,-131z" fill="url(#PSgrad_1)" fill-rule="evenodd"/>
+  <path id="svg_3" d="m1133,411c18.225,0 33,14.775 33,33c0,18.225 -14.775,33 -33,33c-18.225,0 -33,-14.775 -33,-33c0,-18.225 14.775,-33 33,-33z" fill="url(#PSgrad_2)" fill-rule="evenodd"/>
+  <path id="svg_4" d="m281.5,0c22.368,0 40.5,18.132 40.5,40.5c0,22.368 -18.132,40.5 -40.5,40.5c-22.368,0 -40.5,-18.132 -40.5,-40.5c0,-22.368 18.132,-40.5 40.5,-40.5z" fill="url(#PSgrad_2)" fill-rule="evenodd"/>
+ </g>
+</svg>
