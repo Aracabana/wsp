@@ -2293,6 +2293,7 @@ footer {
 }
 .home-development-title {
   margin-bottom: 50px;
+  font-weight: bold;
   text-align: center;
 }
 .home-development-ico-wrapper {
@@ -2720,6 +2721,7 @@ footer {
 }
 .site-name {
   margin-bottom: 30px;
+  font-weight: normal;
   font-size: 24px;
   line-height: 1.5;
 }
@@ -2793,11 +2795,12 @@ footer {
 }
 .letter-wrapper,
 .review-wrapper {
+  display: block;
   margin-bottom: 45px;
 }
 .letter-img {
   display: block;
-  margin: 0 auto;
+  margin: auto;
   max-width: 100%;
 }
 .form-group-photo {
@@ -2879,6 +2882,7 @@ footer {
 }
 .contacts-item .contacts-link {
   padding-left: 20px;
+  font-size: 14px;
   color: #333333;
   background-repeat: no-repeat;
   background-position: left center;
