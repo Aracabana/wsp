@@ -134,7 +134,7 @@ $(document).ready(function () {
     }
     
     //review form add photo
-    $('.js-file').change(function() {
+    $('.js-file').change(function () {
         var file = $(this),
             fileValue = file.val(),
             label = file.next('.js-file-label');
@@ -145,10 +145,19 @@ $(document).ready(function () {
     
     //review letters
     if ($('*').is('.swipebox')) {
-        $( '.swipebox' ).swipebox( {
-            useCSS : true,
-            useSVG : false,
+        $('.swipebox').swipebox({
+            useCSS: true,
+            useSVG: false,
             removeBarsOnMobile: false
-        } );
+        });
     }
+    
+    //scroll to section
+    $('.js-link').click(function (e) {
+        e.preventDefault();
+        var link = $(this),
+            linkHref = link.attr('href'),
+            top = $(linkHref).offset().top - 100;
+        $('body,html').animate({scrollTop: top}, 900);
+    });
 });

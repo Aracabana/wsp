@@ -1263,9 +1263,11 @@ header {
 /*=Review-card=*/
 .review-card {
     display: block;
+    .box-sizing();
     margin-left: auto;
     margin-right: auto;
     padding-top: 30px;
+    height: 100%;
     max-width: 585px;
     &-avatar-wrapper {
         position: relative;
@@ -1313,10 +1315,23 @@ header {
         max-width: 100%;
     }
     &-content {
+        position: relative;
         display: block;
-        padding: 20px;
+        .box-sizing();
+        padding: 20px 20px 47px;
+        height: -webkit-calc(100% - 180px);
+        height: calc(100% - 180px);
+        min-height: 228px;
         background-color: transparent;
         .transition();
+        &::after {
+            content: 'Подробнее';
+            position: absolute;
+            left: 20px;
+            bottom: 20px;
+            text-decoration: underline;
+            .transition();
+        }
     }
     &-company-name {
         margin-bottom: 5px;
@@ -1332,12 +1347,16 @@ header {
         }
     }
     &-text {
+        overflow: hidden;
+        display: -webkit-box;
+        -o-text-overflow: clip;
+        text-overflow: clip;
+        -webkit-line-clamp: 4;
+        -webkit-box-orient: vertical;
         line-height: 1.5;
+        max-height: 96px;
         + .review-card-text {
             margin-top: 25px;
-        }
-        &-link {
-            text-decoration: underline;
         }
     }
     &-light {
@@ -1350,10 +1369,16 @@ header {
         }
         .review-card-content {
             color: #ffffff;
+            &::after {
+                color: #ffffff;
+            }
         }
         &:hover {
             .review-card-content {
                 background-color: #02b6cb;
+                &::after {
+                    color: #ffffff;
+                }
             }
         }
     }
@@ -1369,22 +1394,22 @@ header {
         }
         .review-card-content {
             color: @text-color-dark;
-        }
-        .review-card-text-link {
-            color: @accent-color;
+            &::after {
+                color: @accent-color;
+            }
         }
         &:hover {
             .review-card-content {
                 color: #ffffff;
                 background-color: #02b6cb;
-            }
-            .review-card-text-link {
-                color: #ffffff;
+                &::after {
+                    color: #ffffff;
+                }
             }
         }
     }
     &:hover {
-        .review-card-text-link {
+        .review-card-content::after {
             text-decoration: none;
         }
     }
@@ -1456,7 +1481,10 @@ header {
         .transition();
     }
     &-content {
-        padding: 20px 20px 50px 20px;
+        position: relative;
+        .box-sizing();
+        padding: 20px 20px 77px 20px;
+        height: 100%;
         font-weight: 300;
         color: @text-color-dark;
         background-color: #f9f9fb;
@@ -1475,7 +1503,9 @@ header {
         -webkit-box-orient: vertical;
     }
     &-more {
-        margin-top: 7px;
+        position: absolute;
+        left: 20px;
+        bottom: 50px;
         color: @accent-color;
     }
     &:hover, &:active, &:focus {
@@ -1672,11 +1702,18 @@ footer {
 }
 .review-modal-content {
     padding: 40px 35px 55px;
+    .review-card-content {
+        &::after {
+            display: none;
+        }
+    }
+    .review-card-text {
+        max-height: none;
+    }
 }
 .request-call-modal-content {
     padding: 45px 65px 80px;
 }
-
 /*=HOME=*/
 .home-section {
     background-repeat: no-repeat;

@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="format-detection" content="address=no">
+    <meta http-equiv="x-rim-auto-match" content="none">
+    <title>WSP</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&amp;subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-grid-validation-modal-tabs-print.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="swipebox/swipebox.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+<header class="header-inner">
+    <div class="container header-container">
+        <a href="/" class="header-logo">
+            <img src="./img/logo.svg" alt="" class="header-logo-img">
+        </a>
+        <div class="header-contacts">
+            <div class="header-contacts-in">
+                <p class="header-contacts-item">
+                    <a class="header-contacts-link header-email-link contacts-link" href="mailto:wsp@mail.com"><span>wsp@mail.com</span></a>
+                </p>
+                <p class="header-contacts-item">
+                    <a class="header-contacts-link header-phone-link phone-link contacts-link"
+                       href="tel:+74956541236"><span>+7 (495) 654 12 36</a>
+                    <a href="whatsapp://send?phone=74956541236" class="messenger-link">
+                        <img src="./img/ico-whatsapp.png" alt="Whatsapp">
+                    </a>
+                    <a href="viber://chat?number=+74956541236" class="messenger-link">
+                        <img src="./img/ico-viber.png" alt="Viber">
+                    </a>
+                    <a href="tg://resolve?domain=имя" class="messenger-link">
+                        <img src="./img/ico-telegram.png" alt="Telegram">
+                    </a>
+                </p>
+            </div>
+            <a class="btn btn-icon btn-icon-light-inverse btn-block header-callback-btn"
+               data-href="#request-call-modal"
+               data-toggle="modal"
+               data-target="#request-call-modal"
+               href="#">Перезвоните</a>
+        </div>
+    </div>
+    <nav id="js-menu-wrapper" class="menu-wrapper">
+        <div class="container menu-container">
+            <button id="js-menu-btn" class="menu-btn">
+                <span class="menu-btn-item menu-btn-item-1"></span>
+                <span class="menu-btn-item menu-btn-item-2"></span>
+                <span class="menu-btn-item menu-btn-item-3"></span>
+            </button>
+            <ul id="js-menu" class="menu">
+                <li class="menu-item">
+                    <a href="about-us.html" class="menu-link">О студии</a>
+                </li>
+                <li class="menu-item menu-item-with-submenu">
+                    <a href="index.html#development" class="menu-link js-submenu-item">Разработка сайта</a>
+                    <ul class="submenu js-submenu">
+                        <li class="submenu-item">
+                            <a href="development.html" class="submenu-link">Сайт компании</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="development.html" class="submenu-link">Корпоративный сайт</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="development.html" class="submenu-link">Сайт каталог</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="development.html" class="submenu-link">Интернет магазин</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="development.html" class="submenu-link">Landing Page</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="development.html" class="submenu-link">Другое</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item menu-item-with-submenu">
+                    <a href="index.html#promotion"
+                       class="menu-link js-submenu-item">Продвижение</a>
+                    <ul class="submenu js-submenu">
+                        <li class="submenu-item">
+                            <a href="promotion.html" class="submenu-link">Сео продвижение</a>
+                        </li>
+                        <li class="submenu-item">
+                            <a href="promotion.html" class="submenu-link">Контекстная реклама</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="portfolio.html"
+                       class="menu-link">Портфолио</a>
+                </li>
+                <li class="menu-item">
+                    <a href="reviews.html"
+                       class="menu-link">Отзывы</a>
+                </li>
+                <li class="menu-item">
+                    <a href="blog.html" class="menu-link">Полезная
+                        информация</a>
+                </li>
+                <li class="menu-item">
+                    <a href="contacts.html"
+                       class="menu-link">Контакты</a>
+                </li>
+            </ul>
+            <a class="btn btn-icon btn-icon-light-inverse btn-block menu-callback-btn"
+               data-href="#request-call-modal"
+               data-toggle="modal"
+               data-target="#request-call-modal"
+               href="#">Перезвоните</a>
+        </div>
+    </nav>
+</header>
+
+<div class="portfolio-page">
+    <div class="breadcrumbs">
+        <div class="container">
+            <a href="/" class="breadcrumbs-link">Главная</a>
+            <span class="breadcrumbs-current">Портфолио</span>
+        </div>
+    </div>
+    <section class="section-inner">
+        <div class="container">
+            <h1 class="section-title section-title-dark">Портфолио</h1>
+            <div class="categories-wrapper">
+                <a href="" class="category">Все</a>
+                <a href="" class="category">Сайт компании</a>
+                <a href="" class="category">Корпоративный сайт</a>
+                <a href="" class="category">Сайт каталог</a>
+                <a href="" class="category">Интернет магазин</a>
+                <a href="" class="category">Landing Page</a>
+                <a href="" class="category">Другое</a>
+                <a href="" class="category">Продвижение</a>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-xl-4 portfolio-card-wrapper">
+                    <a href="portfolio-inner.html" class="portfolio-card">
+                        <div class="portfolio-card-laptop">
+                            <div class="portfolio-card-img-wrapper">
+                                <img src="./img/portfolio-slide-img.png" alt="" class="portfolio-card-img">
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <p class="portfolio-card-title">Название сайта</p>
+                            <p class="portfolio-card-tag portfolio-card-tag-site">Сайт под ключ</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-xl-4 portfolio-card-wrapper">
+                    <a href="portfolio-inner.html" class="portfolio-card">
+                        <div class="portfolio-card-laptop">
+                            <div class="portfolio-card-img-wrapper">
+                                <img src="./img/portfolio-slide-img.png" alt="" class="portfolio-card-img">
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <p class="portfolio-card-title">Название сайта</p>
+                            <p class="portfolio-card-tag portfolio-card-tag-markup-programming">Верстка и программирование</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-xl-4 portfolio-card-wrapper">
+                    <a href="portfolio-inner.html" class="portfolio-card">
+                        <div class="portfolio-card-laptop">
+                            <div class="portfolio-card-img-wrapper">
+                                <img src="./img/portfolio-slide-img.png" alt="" class="portfolio-card-img">
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <p class="portfolio-card-title">Название сайта</p>
+                            <p class="portfolio-card-tag portfolio-card-tag-design">Дизайн</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-xl-4 portfolio-card-wrapper">
+                    <a href="portfolio-inner.html" class="portfolio-card">
+                        <div class="portfolio-card-laptop">
+                            <div class="portfolio-card-img-wrapper">
+                                <img src="./img/portfolio-slide-img.png" alt="" class="portfolio-card-img">
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <p class="portfolio-card-title">Название сайта</p>
+                            <p class="portfolio-card-tag portfolio-card-tag-markup">Верстка</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-xl-4 portfolio-card-wrapper">
+                    <a href="portfolio-inner.html" class="portfolio-card">
+                        <div class="portfolio-card-laptop">
+                            <div class="portfolio-card-img-wrapper">
+                                <img src="./img/portfolio-slide-img.png" alt="" class="portfolio-card-img">
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <p class="portfolio-card-title">Название сайта</p>
+                            <p class="portfolio-card-tag portfolio-card-tag-programming">Программирование</p>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-sm-6 col-xl-4 portfolio-card-wrapper">
+                    <a href="portfolio-inner.html" class="portfolio-card">
+                        <div class="portfolio-card-laptop">
+                            <div class="portfolio-card-img-wrapper">
+                                <img src="./img/portfolio-slide-img.png" alt="" class="portfolio-card-img">
+                            </div>
+                        </div>
+                        <div class="portfolio-card-info">
+                            <p class="portfolio-card-title">Название сайта</p>
+                            <p class="portfolio-card-tag portfolio-card-tag-design-markup">Дизайн и верстка</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <a href="portfolio.html" class="btn btn-default btn-block section-inner-btn">Показать еще</a>
+        </div>
+    </section>
+</div>
+<div class="subscribe">
+    <div class="container subscribe-container">
+        <div class="row">
+            <div class="col-xl-8">
+                <h2 class="section-title section-title-dark section-title-left">Подпишитесь на&nbsp;рассылку</h2>
+                <form id="subscribe-form" action="" class="subscribe-form inline-form">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <input id="subscribe-name" type="text" name="subscribe-name" class="form-control" placeholder="Имя">
+                        </div>
+                        <div class="col-md-4">
+                            <input id="subscribe-email" type="email" name="subscribe-email" class="form-control" placeholder="E-mail">
+                        </div>
+                        <div class="col-md-4">
+                            <button class="btn btn-default btn-block submit-btn" type="submit">Отправить</button>
+                        </div>
+                    </div>
+                </form>
+                <p class="form-disclaimer">Нажимая &laquo;Отправить&raquo; Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
+                            href="text-page.html">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>
+            </div>
+        </div>
+        <img src="./img/img-subscribe.png" alt="" class="subscribe-img">
+    </div>
+</div>
+<footer>
+    <div class="container footer-container">
+        <div class="footer-logo-wrapper">
+            <a href="/" class="footer-logo">
+                <img src="./img/logo.svg" alt="" class="footer-logo-img">
+            </a>
+        </div>
+        <div class="footer-menu-wrapper">
+            <div class="footer-menu-block">
+                <h3 class="title-h4 footer-menu-title">ИНФОРМАЦИЯ</h3>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="about-us.html">О студии</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="portfolio.html">Портфолио</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="reviews.html">Отзывы </a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="blog.html">Полезная информация</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="contacts.html">Контакты</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu-block">
+                <h3 class="title-h4 footer-menu-title">Разработка сайта</h3>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="development.html">Сайт компании визитка</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="development.html">Корпоративный сайт</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="development.html">Сайт каталог</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="development.html">Интернет магазин</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="development.html">Landing Page</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-menu-block">
+                <h3 class="title-h4 footer-menu-title">Продвижение</h3>
+                <ul class="footer-menu">
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="promotion.html">СЕО продвижение</a>
+                    </li>
+                    <li class="footer-menu-item">
+                        <a class="footer-menu-link" href="promotion.html">Контекстная реклама</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-contacts">
+            <p class="footer-contacts-item">
+                <a class="footer-contacts-link footer-phone-link phone-link contacts-link"
+                   href="tel:+74956541236"><span>+7 (495) 654 12 36</a>
+                <a href="whatsapp://send?phone=74956541236" class="messenger-link">
+                    <img src="./img/ico-whatsapp.png" alt="Whatsapp" class="messenger-link-whatsapp-img">
+                </a>
+                <a href="viber://chat?number=+74956541236" class="messenger-link">
+                    <img src="./img/ico-viber.png" alt="Viber" class="messenger-link-viber-img">
+                </a>
+                <a href="tg://resolve?domain=имя" class="messenger-link">
+                    <img src="./img/ico-telegram.png" alt="Telegram" class="messenger-link-telegram-img">
+                </a>
+            </p>
+            <p class="footer-contacts-item">
+                <a class="footer-contacts-link footer-email-link contacts-link" href="mailto:wsp@mail.com"><span>wsp@mail.com</span></a>
+            </p>
+            <a class="btn btn-default btn-block" data-href="#request-call-modal" data-toggle="modal"
+               data-target="#request-call-modal" href="#">Перезвоните</a>
+        </div>
+    </div>
+</footer>
+
+
+
+<div id="review-modal" class="modal fade review-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog review-modal-dialog" role="document">
+        <div class="modal-content review-modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+                <img src="./img/ico-cancel.svg" alt="">
+            </button>
+            <div class="review-card review-card-dark review-card-modal">
+                <div class="review-card-header">
+                    <div class="review-card-avatar-wrapper">
+                        <div class="review-card-avatar-wrapper-in">
+                            <img src="./img/ico-avatar-man.svg" alt="" class="review-card-avatar"  style="width: 54px;">
+                        </div>
+                    </div>
+                    <h3 class="section-title section-title-dark section-title-left review-card-modal-title">Название <br>компании</h3>
+                </div>
+                <div class="review-card-content">
+                    <p class="review-card-author"><span class="review-card-author-name">Имя Фамилия</span>, <span class="review-card-author-position">Должность</span></p>
+                    <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p class="review-card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="request-call-modal" class="modal fade request-call-modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog request-call-modal-dialog" role="document">
+        <div class="modal-content request-call-modal-content">
+            <button type="button" class="close modal-close" data-dismiss="modal" aria-label="Close">
+                <img src="./img/ico-cancel.svg" alt="">
+            </button>
+            <h3 class="section-title section-title-dark">Заказать звонок</h3>
+            <form id="request-call-form" class="request-call-form inline-form" name="request-call-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input id="request-call-name" type="text" name="request-call-name" class="form-control" placeholder="Имя" required>
+                    </div>
+                    <div class="col-md-6">
+                        <input id="request-call-tel" type="tel" name="request-call-tel" class="form-control" placeholder="Телефон">
+                    </div>
+                </div>
+                <button class="btn btn-default btn-block btn-center submit-btn" type="submit">Перезвоните</button>
+                <p class="form-disclaimer">Нажимая &laquo;Перезвоните&raquo; Вы даете согласие на&nbsp;обработку персональных данных и&nbsp;соглашаетесь c&nbsp;<a
+                            href="text-page.html">пользовательским соглашением и&nbsp;политикой конфиденциальности</a>.</p>
+            </form>
+        </div>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"
+        integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+<script src="js/bootstrap-modal.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="swipebox/jquery.swipebox.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
