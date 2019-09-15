@@ -3,14 +3,18 @@
 @media (max-width: 1199px) {
     /*=HEADER=*/
     .header-contacts {
-        max-width: 550px;
+        max-width: 630px;
     }
     .header-contacts-in {
         display: block;
+        width: 43%;
         max-width: none;
     }
     .header-contacts-item:first-child {
         margin-bottom: 10px;
+    }
+    .header-contacts-links {
+        width: 57%;
     }
     /*=MENU=*/
     .menu-callback-btn {
@@ -121,6 +125,14 @@
         padding-top: 15px;
     }
     .header-contacts {
+        width: 47%;
+        max-width: none;
+        &-in {
+            width: 80%;
+        }
+    }
+    .header-contacts-links {
+        display: block;
         width: auto;
         max-width: none;
     }
@@ -491,8 +503,11 @@
     /*forms*/
     /*=HEADER=*/
     .header-logo-img {
-        width: 187px;
-        height: 58px;
+        width: 170px;
+        height: 53px;
+    }
+    .header-contacts {
+        width: 60%;
     }
     .header-contacts-link {
         font-size: 16px;
@@ -698,6 +713,32 @@
 }
 @media (max-width: 520px) {
     /*=HEADER=*/
+    .header-container {
+        display: block;
+        padding-top: 15px;
+        text-align: center;
+    }
+    .header-logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 187px;
+    }
+    .header-contacts {
+        margin: 0 auto;
+        padding-top: 15px;
+        width: 100%;
+        max-width: 320px;
+    }
+    .header-contacts-item {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 220px;
+        text-align: left;
+        &:first-child {
+            margin-bottom: 5px;
+        }
+    }
     .header-contacts-link {
         padding-left: 20px;
         font-size: 14px;
@@ -735,29 +776,6 @@
         -ms-flex-preferred-size: 290px;
         flex-basis: 290px;
         max-width: 352px;
-    }
-    /*=HEADER=*/
-    .header-container {
-        display: block;
-        padding-top: 15px;
-        text-align: center;
-    }
-    .header-logo {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 187px;
-    }
-    .header-contacts {
-        padding-top: 15px;
-    }
-    .header-contacts-item {
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 220px;
-    }
-    .header-contacts-item:first-child {
-        margin-bottom: 5px;
     }
     /*=CONTENT=*/
     /***Algorithm***/
