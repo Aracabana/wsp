@@ -1,0 +1,16 @@
+<svg width="1920" height="1220" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+   <stop offset="0%" stop-color="rgb(255,119,0)"/>
+   <stop offset="100%" stop-color="rgb(255,204,0)"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="2402" height="1527" id="canvas_background" fill="none"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <path fill-rule="evenodd" fill="url(#PSgrad_0)" d="m224.833191,244c46.668,0 84.5,37.832 84.5,84.5c0,46.668 -37.832,84.5 -84.5,84.5c-46.668,0 -84.5,-37.832 -84.5,-84.5c0,-46.668 37.832,-84.5 84.5,-84.5z" id="svg_5"/>
+ </g>
+</svg>

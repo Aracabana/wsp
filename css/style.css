@@ -2170,6 +2170,31 @@ footer {
 .request-call-modal-content {
   padding: 45px 65px 80px;
 }
+/*=PARALLAX=*/
+.parallax-wrapper {
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  max-width: 1920px;
+  height: 100%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+}
+.parallax-scene {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+.parallax-scene li {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 /*=HOME=*/
 .home-section {
   background-repeat: no-repeat;
@@ -2185,17 +2210,18 @@ footer {
 }
 .home-welcome-container {
   position: relative;
+  z-index: 2;
 }
 .home-welcome-img {
   position: absolute;
   top: 0;
   left: 50%;
-  z-index: 1;
+  z-index: 3;
   margin-left: -8.333333%;
 }
 .home-welcome-content-wrapper {
   position: relative;
-  z-index: 2;
+  z-index: 4;
   padding-top: 115px;
   padding-bottom: 115px;
 }
@@ -2297,12 +2323,15 @@ footer {
 }
 /***Development***/
 .home-work {
+  position: relative;
   background-image: url("../img/bg-home-work.svg");
   background-position: center bottom;
   background-size: 1920px auto;
   background-repeat: no-repeat;
 }
 .home-development {
+  position: relative;
+  z-index: 2;
   padding-top: 50px;
 }
 .home-development-card {
@@ -2371,6 +2400,8 @@ footer {
 }
 /***Promotion***/
 .home-promotion {
+  position: relative;
+  z-index: 2;
   min-height: 573px;
   padding: 23px 0 109px;
 }
@@ -2449,13 +2480,17 @@ footer {
 }
 /***Algorithm***/
 .home-algorithm {
+  position: relative;
   margin-top: -61px;
   padding-top: 115px;
   padding-bottom: 75px;
   background-repeat: no-repeat;
-  background-image: url("../img/bg-home-algorithm.svg");
   background-position: center top;
   background-size: 1749px auto;
+}
+.home-algorithm-container {
+  position: relative;
+  z-index: 2;
 }
 /***Manager***/
 .home-manager {
@@ -2467,11 +2502,13 @@ footer {
 }
 /***Portfolio***/
 .home-portfolio {
+  position: relative;
   padding-top: 30px;
   padding-bottom: 25px;
-  background-position: center 15px;
-  background-image: url("../img/bg-home-portfolio.svg");
-  background-size: 1920px auto;
+}
+.home-portfolio-container {
+  position: relative;
+  z-index: 2;
 }
 /***Reviews***/
 .home-reviews {
@@ -2498,11 +2535,13 @@ footer {
 }
 /***Articles***/
 .home-articles {
+  position: relative;
   margin-top: -35px;
   padding-bottom: 20px;
-  background-image: url("../img/bg-home-articles.svg");
-  background-size: 1920px auto;
-  background-position: center 60px;
+}
+.home-articles-container {
+  position: relative;
+  z-index: 2;
 }
 .articles-slider .slick-arrow {
   top: 0;

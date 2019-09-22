@@ -24,6 +24,10 @@ $(document).ready(function () {
         }
     }
     
+    //parallax
+    if($('*').is('.js-parallax')) {
+        $('.js-parallax').parallax();
+    }
     //mobile menu
     $('#js-menu-btn').click(function (e) {
         e.preventDefault();
