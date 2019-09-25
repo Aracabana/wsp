@@ -1,16 +1,16 @@
 <svg width="1920" height="1220" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <linearGradient id="PSgrad_1" x1="0%" x2="0%" y1="100%" y2="0%">
-   <stop offset="0%" stop-color="rgb(93,198,5)"/>
-   <stop offset="100%" stop-color="rgb(17,244,103)"/>
+  <linearGradient y2="0%" y1="100%" x2="0%" x1="0%" id="PSgrad_1">
+   <stop stop-color="rgb(93,198,5)" offset="0%"/>
+   <stop stop-color="rgb(17,244,103)" offset="100%"/>
   </linearGradient>
  </defs>
  <g>
   <title>background</title>
-  <rect x="-1" y="-1" width="2402" height="1527" id="canvas_background" fill="none"/>
+  <rect fill="none" id="canvas_background" height="2035.321527" width="3201.98142" y="-1" x="-1"/>
  </g>
  <g>
   <title>Layer 1</title>
-  <path fill-rule="evenodd" fill="url(#PSgrad_1)" d="m1618.333191,0c13.255,0 24,10.745 24,24c0,13.255 -10.745,24 -24,24c-13.255,0 -24,-10.745 -24,-24c0,-13.255 10.745,-24 24,-24z" id="svg_6"/>
+  <path id="svg_6" d="m1618.333191,27.999998c13.255,0 24,10.745 24,24c0,13.255 -10.745,24 -24,24c-13.255,0 -24,-10.745 -24,-24c0,-13.255 10.745,-24 24,-24z" fill="url(#PSgrad_1)" fill-rule="evenodd"/>
  </g>
 </svg>

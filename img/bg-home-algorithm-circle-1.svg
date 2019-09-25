@@ -1,16 +1,16 @@
 <svg width="1749" height="1210" xmlns="http://www.w3.org/2000/svg">
  <defs>
-  <linearGradient y2="0%" y1="100%" x2="0%" x1="0%" id="PSgrad_0">
-   <stop stop-color="rgb(255,119,0)" offset="0%"/>
-   <stop stop-color="rgb(255,204,0)" offset="100%"/>
+  <linearGradient id="PSgrad_0" x1="0%" x2="0%" y1="100%" y2="0%">
+   <stop offset="0%" stop-color="rgb(255,119,0)"/>
+   <stop offset="100%" stop-color="rgb(255,204,0)"/>
   </linearGradient>
  </defs>
  <g>
   <title>background</title>
-  <rect fill="none" id="canvas_background" height="1878.919178" width="2955.840018" y="-1" x="-1"/>
+  <rect x="-1" y="-1" width="1751" height="1212" id="canvas_background" fill="none"/>
  </g>
  <g>
   <title>Layer 1</title>
-  <path id="svg_5" d="m770.5,0c26.234,0 47.5,21.266 47.5,47.5c0,26.234 -21.266,47.5 -47.5,47.5c-26.234,0 -47.5,-21.266 -47.5,-47.5c0,-26.234 21.266,-47.5 47.5,-47.5z" fill="url(#PSgrad_0)" fill-rule="evenodd"/>
+  <path fill-rule="evenodd" fill="url(#PSgrad_0)" d="m770.5,21.666541c26.234,0 47.5,21.266 47.5,47.5c0,26.234 -21.266,47.5 -47.5,47.5c-26.234,0 -47.5,-21.266 -47.5,-47.5c0,-26.234 21.266,-47.5 47.5,-47.5z" id="svg_5"/>
  </g>
 </svg>

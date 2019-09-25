@@ -67,6 +67,9 @@
     .footer-contacts-item {
         margin-bottom: 0;
     }
+    .footer-email-link {
+        padding-right: 15px;
+    }
     
     /*=HOME=*/
     /***Welcome***/
@@ -390,8 +393,22 @@
         text-align: center;
     }
     .footer-contacts {
+        -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
         padding-top: 40px;
         max-width: none;
+        &-item {
+            width: 50%;
+            &-inst {
+                max-width: 300px;
+            }
+        }
+        .btn {
+            margin-top: 40px;
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
     /*=ERROR=*/
     .error-content {
@@ -535,7 +552,8 @@
     }
     .footer-contacts-item {
         margin-bottom: 25px;
-        padding-left: 30px;
+        width: 100%;
+        max-width: none;
     }
     .footer-menu-wrapper {
         display: none;
