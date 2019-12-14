@@ -2486,10 +2486,8 @@ footer {
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
   border-radius: 50%;
-  border: 1px solid #ffffff;
   width: 125px;
   height: 125px;
-  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center center;
   -webkit-transition: all ease 0.3s;
@@ -2504,26 +2502,16 @@ footer {
   width: 185px;
 }
 .home-promotion-link-1::before {
-  background-image: url("../img/ico-home-promotion-1.svg");
-  background-size: 52px 64px;
-}
-.home-promotion-link-1:hover::before,
-.home-promotion-link-1:active::before,
-.home-promotion-link-1:focus::before {
-  background-image: url("../img/ico-home-promotion-1-hover.svg");
+  background-image: url("../img/ico-home-dev-catalog-site.png");
+  background-size: 113px 113px;
 }
 .home-promotion-link-2 {
   margin-left: 60px;
   width: 240px;
 }
 .home-promotion-link-2::before {
-  background-image: url("../img/ico-home-promotion-2.svg");
-  background-size: 56px 60px;
-}
-.home-promotion-link-2:hover::before,
-.home-promotion-link-2:active::before,
-.home-promotion-link-2:focus::before {
-  background-image: url("../img/ico-home-promotion-2-hover.svg");
+  background-image: url("../img/ico-home-dev-corporate-site.png");
+  background-size: 113px 113px;
 }
 .home-promotion-link:hover::before,
 .home-promotion-link:active::before,
