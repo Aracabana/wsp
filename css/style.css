@@ -2390,7 +2390,7 @@ footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding: 65px 15px 55px;
+  padding: 40px 15px 40px;
   min-height: 340px;
   background-color: #fcfcfc;
   background-repeat: no-repeat;
@@ -2406,7 +2406,7 @@ footer {
   background: linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
 }
 .home-development-card-1 .home-development-ico {
-  max-width: 140px;
+  max-width: 160px;
 }
 .home-development-card-2 {
   background: -moz-linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
@@ -2417,7 +2417,7 @@ footer {
   background: linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
 }
 .home-development-card-2 .home-development-ico {
-  max-width: 140px;
+  max-width: 160px;
 }
 .home-development-card-3 {
   background: -moz-linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
@@ -2428,10 +2428,10 @@ footer {
   background: linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
 }
 .home-development-card-3 .home-development-ico {
-  max-width: 140px;
+  max-width: 160px;
 }
 .home-development-card-4 .home-development-ico {
-  max-height: 140px;
+  max-height: 160px;
 }
 .home-development-card-4:hover,
 .home-development-card-4:active,
@@ -2439,7 +2439,7 @@ footer {
   background-image: url("../img/bg-home-development-card-4.svg");
 }
 .home-development-card-5 .home-development-ico {
-  max-height: 140px;
+  max-height: 160px;
 }
 .home-development-card-5:hover,
 .home-development-card-5:active,
@@ -2447,7 +2447,7 @@ footer {
   background-image: url("../img/bg-home-development-card-5.svg");
 }
 .home-development-card-6 .home-development-ico {
-  max-height: 140px;
+  max-height: 160px;
 }
 .home-development-card-6:hover,
 .home-development-card-6:active,
