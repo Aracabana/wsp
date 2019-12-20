@@ -1967,37 +1967,75 @@ footer {
 }
 .home-development-card {
     display: block;
-    padding: 65px 15px 85px;
+    .box-sizing();
+    padding: 65px 15px 55px;
+    min-height: 340px;
     background-color: @bg-color;
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 100% auto;
     &-1 {
+        background: -moz-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,117,131,1)), color-stop(100%, rgba(42,232,230,1)));
+        background: -webkit-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: -o-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: -ms-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        .home-development-ico {
+            max-width: 140px;
+        }
         &:hover, &:active, &:focus {
-            background-image: url("../img/bg-home-development-card-1.svg");
+            //background-image: url("../img/bg-home-development-card-1.svg");
         }
     }
     &-2 {
+        background: -moz-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,117,131,1)), color-stop(100%, rgba(42,232,230,1)));
+        background: -webkit-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: -o-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: -ms-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        .home-development-ico {
+            max-width: 140px;
+        }
         &:hover, &:active, &:focus {
-            background-image: url("../img/bg-home-development-card-2.svg");
+            //background-image: url("../img/bg-home-development-card-2.svg");
         }
     }
     &-3 {
+        background: -moz-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,117,131,1)), color-stop(100%, rgba(42,232,230,1)));
+        background: -webkit-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: -o-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: -ms-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        background: linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+        .home-development-ico {
+            max-width: 140px;
+        }
         &:hover, &:active, &:focus {
-            background-image: url("../img/bg-home-development-card-3.svg");
+            //background-image: url("../img/bg-home-development-card-3.svg");
         }
     }
     &-4 {
+        .home-development-ico {
+            max-height: 140px;
+        }
         &:hover, &:active, &:focus {
             background-image: url("../img/bg-home-development-card-4.svg");
         }
     }
     &-5 {
+        .home-development-ico {
+            max-height: 140px;
+        }
         &:hover, &:active, &:focus {
             background-image: url("../img/bg-home-development-card-5.svg");
         }
     }
     &-6 {
+        .home-development-ico {
+            max-height: 140px;
+        }
         &:hover, &:active, &:focus {
             background-image: url("../img/bg-home-development-card-6.svg");
         }
@@ -2008,20 +2046,9 @@ footer {
     font-weight: bold;
     text-align: center;
 }
-.home-development-ico-wrapper {
-    position: relative;
-    margin: 0 auto;
-    .border-radius(50%);
-    width: 113px;
-    height: 113px;
-    background-color: @accent-color;
-    background-image: -moz-linear-gradient( 90deg, rgb(0,185,207) 0%, rgb(0,228,255) 100%);
-    background-image: -webkit-linear-gradient( 90deg, rgb(0,185,207) 0%, rgb(0,228,255) 100%);
-    background-image: -ms-linear-gradient( 90deg, rgb(0,185,207) 0%, rgb(0,228,255) 100%);
-}
 .home-development-ico {
-    .img-center();
-    max-width: 110%;
+    display: block;
+    margin: 0 auto;
 }
 /***Promotion***/
 .home-promotion {
