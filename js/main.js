@@ -45,6 +45,7 @@ $(document).ready(function () {
     //portfolio-slider
     if ($('*').is('#js-portfolio-slider')) {
         $('#js-portfolio-slider').slick({
+            lazyLoad: 'ondemand',
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -68,6 +69,7 @@ $(document).ready(function () {
     //portfolio-slider-autoplay
     if ($('*').is('#js-portfolio-slider-autoplay')) {
         $('#js-portfolio-slider-autoplay').slick({
+            lazyLoad: 'ondemand',
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
@@ -94,6 +96,7 @@ $(document).ready(function () {
     //reviews-slider
     if ($('*').is('#js-reviews-slider')) {
         $('#js-reviews-slider').slick({
+            lazyLoad: 'ondemand',
             infinite: true,
             slidesToShow: 2,
             slidesToScroll: 1,
@@ -111,9 +114,10 @@ $(document).ready(function () {
         });
     }
     
-    //portfolio-slider
+    //article-slider
     if ($('*').is('#js-articles-slider')) {
         $('#js-articles-slider').slick({
+            lazyLoad: 'ondemand',
             infinite: true,
             slidesToShow: 3,
             slidesToScroll: 1,
