@@ -2137,7 +2137,7 @@ footer {
   background-color: #F7F5F8;
 }
 .modal-backdrop.in {
-  opacity: 0.9;
+  opacity: 0.90;
 }
 .modal-dialog {
   margin-left: auto;
@@ -2405,12 +2405,24 @@ footer {
   background-repeat: no-repeat;
   background-position: left bottom;
   background-size: 100% auto;
-  background: -moz-linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
-  background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #007583), color-stop(100%, #2ae8e6));
-  background: -webkit-linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
-  background: -o-linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
-  background: -ms-linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
-  background: linear-gradient(45deg, #007583 0%, #2ae8e6 100%);
+}
+.home-development-card-1:hover {
+  background-image: url("../img/bg-home-development-card-1.svg");
+}
+.home-development-card-2:hover {
+  background-image: url("../img/bg-home-development-card-2.svg");
+}
+.home-development-card-3:hover {
+  background-image: url("../img/bg-home-development-card-3.svg");
+}
+.home-development-card-4:hover {
+  background-image: url("../img/bg-home-development-card-4.svg");
+}
+.home-development-card-5:hover {
+  background-image: url("../img/bg-home-development-card-5.svg");
+}
+.home-development-card-6:hover {
+  background-image: url("../img/bg-home-development-card-6.svg");
 }
 .home-development-title {
   margin-bottom: 45px;
@@ -2454,14 +2466,15 @@ footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  margin-left: -62.5px;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-  width: 125px;
+  width: 100%;
   height: 125px;
   background-repeat: no-repeat;
   background-position: center center;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s;
   -o-transition: all ease 0.3s;
@@ -2474,8 +2487,8 @@ footer {
   width: 185px;
 }
 .home-promotion-link-1::before {
-  background-image: url("../img/ico-home-dev-catalog-site.png");
-  background-size: 113px 113px;
+  background-image: url("../img/ico-home-promotion-seo.png");
+  background-size: auto 125px;
 }
 .home-promotion-link-2 {
   margin-left: 60px;

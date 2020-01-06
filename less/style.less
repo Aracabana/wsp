@@ -1982,12 +1982,36 @@ footer {
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: 100% auto;
-    background: -moz-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(0,117,131,1)), color-stop(100%, rgba(42,232,230,1)));
-    background: -webkit-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
-    background: -o-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
-    background: -ms-linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
-    background: linear-gradient(45deg, rgba(0,117,131,1) 0%, rgba(42,232,230,1) 100%);
+    &-1 {
+        &:hover {
+            background-image: url("../img/bg-home-development-card-1.svg");
+        }
+    }
+    &-2 {
+        &:hover {
+            background-image: url("../img/bg-home-development-card-2.svg");
+        }
+    }
+    &-3 {
+        &:hover {
+            background-image: url("../img/bg-home-development-card-3.svg");
+        }
+    }
+    &-4 {
+        &:hover {
+            background-image: url("../img/bg-home-development-card-4.svg");
+        }
+    }
+    &-5 {
+        &:hover {
+            background-image: url("../img/bg-home-development-card-5.svg");
+        }
+    }
+    &-6 {
+        &:hover {
+            background-image: url("../img/bg-home-development-card-6.svg");
+        }
+    }
 }
 .home-development-title {
     margin-bottom: 45px;
@@ -2026,14 +2050,13 @@ footer {
         top: 0;
         left: 50%;
         .box-sizing();
-        margin-left: -62.5px;
-        .border-radius(50%);
         //border: 1px solid #ffffff;
-        width: 125px;
+        width: 100%;
         height: 125px;
         //background-color: #ffffff;
         background-repeat: no-repeat;
         background-position: center center;
+        .translateX(-50%);
         .transition();
     }
     &-title {
@@ -2043,9 +2066,9 @@ footer {
         width: 185px;
         &::before {
             //background-image: url("../img/ico-home-promotion-1.svg");
-            background-image: url("../img/ico-home-dev-catalog-site.png");
+            background-image: url("../img/ico-home-promotion-seo.png");
             //background-size: 52px 64px;
-            background-size: 113px 113px;
+            background-size: auto 125px;
         }
         &:hover, &:active, &:focus {
             &::before {
