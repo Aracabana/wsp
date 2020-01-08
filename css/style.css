@@ -2456,52 +2456,22 @@ footer {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  padding-top: 140px;
 }
-.home-promotion-link::before {
-  content: '';
-  position: absolute;
-  top: 0;
-  left: 50%;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-  width: 100%;
+.home-promotion-link-img {
+  display: block;
+  margin: 0 auto 15px;
   height: 125px;
-  background-repeat: no-repeat;
-  background-position: center center;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
-  transform: translateX(-50%);
-  -webkit-transition: all ease 0.3s;
-  -moz-transition: all ease 0.3s;
-  -o-transition: all ease 0.3s;
-  transition: all ease 0.3s;
 }
 .home-promotion-link-title {
+  margin-bottom: 0;
   text-align: center;
 }
 .home-promotion-link-1 {
   width: 185px;
 }
-.home-promotion-link-1::before {
-  background-image: url("../img/ico-home-promotion-seo.png");
-  background-size: auto 125px;
-}
 .home-promotion-link-2 {
   margin-left: 60px;
   width: 240px;
-}
-.home-promotion-link-2::before {
-  background-image: url("../img/ico-home-dev-corporate-site.png");
-  background-size: 113px 113px;
-}
-.home-promotion-link:hover::before,
-.home-promotion-link:active::before,
-.home-promotion-link:focus::before {
-  background-color: transparent;
 }
 /***Algorithm***/
 .home-parallax-container {
