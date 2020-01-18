@@ -2461,6 +2461,10 @@ footer {
   display: block;
   margin: 0 auto 15px;
   height: 125px;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  transition: all ease 0.3s;
 }
 .home-promotion-link-title {
   margin-bottom: 0;
@@ -2472,6 +2476,15 @@ footer {
 .home-promotion-link-2 {
   margin-left: 60px;
   width: 240px;
+}
+.home-promotion-link:hover .home-promotion-link-img,
+.home-promotion-link:active .home-promotion-link-img,
+.home-promotion-link:focus .home-promotion-link-img {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 /***Algorithm***/
 .home-parallax-container {
@@ -2491,9 +2504,24 @@ footer {
 .home-manager {
   margin-top: -120px;
   padding: 270px 0 135px;
-  background-image: url("../img/bg-home-manager-form-img.png"), url("../img/bg-home-manager-form.svg");
-  background-size: auto auto, 1920px auto;
-  background-position: center 85px, center top;
+  background-image: url("../img/bg-home-manager-form.svg");
+  background-size: 1920px auto;
+  background-position: center top;
+}
+.home-manager .container {
+  position: relative;
+}
+.home-manager .container::after {
+  content: '';
+  position: absolute;
+  right: -90px;
+  top: -165px;
+  z-index: 2;
+  width: 600px;
+  height: 600px;
+  background-repeat: no-repeat;
+  background-image: url("../img/bg-home-manager-form.png");
+  background-size: 100% auto;
 }
 /***Portfolio***/
 .home-portfolio {
@@ -3272,6 +3300,10 @@ footer {
   }
   .home-promotion-link-2 {
     margin-left: 25px;
+  }
+  /***Manager***/
+  .home-manager .container::after {
+    display: none;
   }
   /*=ABOUT US=*/
   .about-us-card-2,
