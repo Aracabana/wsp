@@ -1564,11 +1564,24 @@ header {
 }
 /*=Manager-inner-form=*/
 .manager-inner {
+  overflow: hidden;
   padding: 60px 0;
   background-color: #fbfafb;
-  background-image: url("../img/bg-manager-inner.png");
+}
+.manager-inner .container {
+  position: relative;
+}
+.manager-inner .container::after {
+  content: '';
+  position: absolute;
+  right: -115px;
+  top: -70px;
+  z-index: 2;
+  width: 540px;
+  height: 380px;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-image: url("../img/bg-home-manager-form.png");
+  background-size: 100% auto;
 }
 /*=Portfolio-slider=*/
 .portfolio-slider .slick-arrow {
@@ -2502,6 +2515,7 @@ footer {
 }
 /***Manager***/
 .home-manager {
+  overflow: hidden;
   margin-top: -120px;
   padding: 270px 0 135px;
   background-image: url("../img/bg-home-manager-form.svg");
@@ -2518,7 +2532,7 @@ footer {
   top: -165px;
   z-index: 2;
   width: 600px;
-  height: 600px;
+  height: 425px;
   background-repeat: no-repeat;
   background-image: url("../img/bg-home-manager-form.png");
   background-size: 100% auto;
@@ -3245,6 +3259,10 @@ footer {
   }
   /*=Subscribe-form=*/
   .subscribe-img {
+    display: none;
+  }
+  /*=Manager-inner-form=*/
+  .manager-inner .container::after {
     display: none;
   }
   /*=FOOTER=*/
