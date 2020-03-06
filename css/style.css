@@ -2150,7 +2150,7 @@ footer {
   background-color: #F7F5F8;
 }
 .modal-backdrop.in {
-  opacity: 0.9;
+  opacity: 0.90;
 }
 .modal-dialog {
   margin-left: auto;
