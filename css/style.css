@@ -2003,8 +2003,8 @@ header {
 }
 .subscribe-img {
   position: absolute;
-  right: 0;
-  bottom: -55px;
+  right: -30px;
+  top: -60px;
   z-index: 1;
 }
 .subscribe-form {
@@ -2150,7 +2150,7 @@ footer {
   background-color: #F7F5F8;
 }
 .modal-backdrop.in {
-  opacity: 0.90;
+  opacity: 0.9;
 }
 .modal-dialog {
   margin-left: auto;
