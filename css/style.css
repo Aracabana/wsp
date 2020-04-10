@@ -2743,9 +2743,9 @@ footer {
   padding-bottom: 20px;
 }
 .development-algorithm {
+  overflow: hidden;
+  position: relative;
   padding-top: 110px;
-  background-image: url("../img/bg-algorithm.svg");
-  background-size: auto 1070px;
 }
 .development-list li {
   position: relative;
