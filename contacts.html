@@ -24,26 +24,36 @@
         </a>
         <div class="header-contacts">
             <div class="header-contacts-in">
-                <p class="header-contacts-item">
-                    <a class="header-contacts-link header-email-link contacts-link" href="mailto:wsp@mail.com"><span>wsp@mail.com</span></a>
-                </p>
-                <p class="header-contacts-item">
-                    <a class="header-contacts-link header-phone-link phone-link contacts-link"
-                       href="tel:+74956541236"><span>+7 (495) 654 12 36</span></a>
-                    <a href="whatsapp://send?phone=74956541236" class="messenger-link">
-                        <img src="./img/ico-whatsapp.png" alt="Whatsapp">
-                    </a>
-                    <a href="viber://chat?number=+74956541236" class="messenger-link">
-                        <img src="./img/ico-viber.png" alt="Viber">
-                    </a>
-                    <a href="tg://resolve?domain=имя" class="messenger-link">
-                        <img src="./img/ico-telegram.png" alt="Telegram">
-                    </a>
-                </p>
+                <div class="header-contacts-item">
+                    <p>
+                        <a class="header-contacts-link header-email-link contacts-link" href="mailto:wsp@mail.com"><span>wsp@mail.com</span></a>
+                    </p>
+                    <p>
+                        <a class="header-contacts-link header-phone-link phone-link contacts-link" href="tel:+74956541236"><span>+7 (495) 654 12 36</span></a>
+                        <a href="whatsapp://send?phone=74956541236" class="messenger-link">
+                            <img src="./img/ico-whatsapp.png" alt="Whatsapp">
+                        </a>
+                        <a href="viber://chat?number=+74956541236" class="messenger-link">
+                            <img src="./img/ico-viber.png" alt="Viber">
+                        </a>
+                        <a href="tg://resolve?domain=имя" class="messenger-link">
+                            <img src="./img/ico-telegram.png" alt="Telegram">
+                        </a>
+                    </p>
+                </div>
+                <div class="header-contacts-item">
+                    <p class="header-contacts-time">
+                        Пн-пт: 9.00 - 18.00<br>
+                        Вс, Сб: выходной
+                    </p>
+                </div>
             </div>
             <div class="header-contacts-links">
+                <a href="" class="header-contacts-fb">
+                    <img src="img/ico-fb-color.png" alt="">
+                </a>
                 <a href="" class="header-contacts-inst">
-                    <img src="img/ico-insta.svg" alt="">
+                    <img src="img/ico-inst-color.png" alt="">
                 </a>
                 <a class="btn btn-icon btn-icon-light-inverse btn-block header-callback-btn"
                    data-href="#request-call-modal"
@@ -65,7 +75,7 @@
                     <a href="about-us.html" class="menu-link">О студии</a>
                 </li>
                 <li class="menu-item menu-item-with-submenu">
-                    <a href="index.html#development" class="menu-link js-submenu-item">Разработка сайта</a>
+                    <a href="#development" class="menu-link js-submenu-item js-link">Разработка сайта</a>
                     <ul class="submenu js-submenu">
                         <li class="submenu-item">
                             <a href="development.html" class="submenu-link">Сайт компании</a>
@@ -88,8 +98,7 @@
                     </ul>
                 </li>
                 <li class="menu-item menu-item-with-submenu">
-                    <a href="index.html#promotion"
-                       class="menu-link js-submenu-item">Продвижение</a>
+                    <a href="#promotion" class="menu-link js-submenu-item js-link">Продвижение</a>
                     <ul class="submenu js-submenu">
                         <li class="submenu-item">
                             <a href="promotion.html" class="submenu-link">Сео продвижение</a>
@@ -100,20 +109,16 @@
                     </ul>
                 </li>
                 <li class="menu-item">
-                    <a href="portfolio.html"
-                       class="menu-link">Портфолио</a>
+                    <a href="portfolio.html" class="menu-link">Портфолио</a>
                 </li>
                 <li class="menu-item">
-                    <a href="reviews.html"
-                       class="menu-link">Отзывы</a>
+                    <a href="reviews.html" class="menu-link">Отзывы</a>
                 </li>
                 <li class="menu-item">
-                    <a href="blog.html" class="menu-link">Полезная
-                        информация</a>
+                    <a href="blog.html" class="menu-link">Полезная информация</a>
                 </li>
                 <li class="menu-item">
-                    <a href="contacts.html"
-                       class="menu-link">Контакты</a>
+                    <a href="contacts.html" class="menu-link">Контакты</a>
                 </li>
             </ul>
             <a class="btn btn-icon btn-icon-light-inverse btn-block menu-callback-btn"
@@ -152,7 +157,16 @@
                             <img src="./img/ico-telegram.png" alt="Telegram">
                         </a>
                     </p>
-                    <p class="contacts-item address">г.&nbsp;Москва, ул.&nbsp;Первая, дом&nbsp;16, офис&nbsp;156</p>
+                    <p class="contacts-item time">Время работы с 10:00 до 19:00</p>
+                    <p class="contacts-item address">Юридический адрес: г. Севастополь, ул. Дмитрия Ульянова 16-153</p>
+                    <div class="contacts-soc">
+                        <a href="">
+                            <img src="img/ico-inst-color.png" alt="">
+                        </a>
+                        <a href="">
+                            <img src="img/ico-fb-color.png" alt="">
+                        </a>
+                    </div>
                 </div>
                 <div class="map-wrapper">
                     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A0364d6f31d5cf59e3686db5639de064eca9e0a76040e323acf217296dc56c9b7&amp;width=100%25&amp;height=600&amp;lang=ru_RU&amp;scroll=true"></script>
@@ -282,14 +296,26 @@
                     <img src="./img/ico-telegram.png" alt="Telegram" class="messenger-link-telegram-img">
                 </a>
             </p>
-            <p class="footer-contacts-item footer-contacts-item-inst">
-                <a class="footer-contacts-link footer-email-link contacts-link" href="mailto:wsp@mail.com"><span>wsp@mail.com</span></a>
-                <a href="" class="footer-contacts-inst">
-                    <img src="img/ico-insta.svg" alt="">
-                </a>
+            <p class="footer-contacts-item">
+                <a class="footer-contacts-link footer-email-link contacts-link" href="mailto:manager@wsp-studio.ru"><span>manager@wsp-studio.ru</span></a>
             </p>
-            <a class="btn btn-default btn-block" data-href="#request-call-modal" data-toggle="modal"
-               data-target="#request-call-modal" href="#">Перезвоните</a>
+            <p class="footer-contacts-item time">
+                Пн-пт: 9.00 - 18.00<br>
+                Вс, Сб: выходной
+            </p>
+            <div class="footer-contacts-bottom">
+                <a class="footer-callback-link" data-href="#request-call-modal" data-toggle="modal"
+                   data-target="#request-call-modal" href="#">Перезвоните</a>
+                <div class="footer-soc">
+                    <a href="">
+                        <img src="img/ico-inst-blue.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="img/ico-fb-blue.png" alt="">
+                    </a>
+                </div>
+            </div>
+            <p class="footer-copyright">© WSP 2020 Все права защищены</p>
         </div>
     </div>
 </footer>
