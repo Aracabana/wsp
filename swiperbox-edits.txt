@@ -1,0 +1,28 @@
+	if ($('*').is('.swipebox')) {
+		$('.swipebox').swipebox({
+			useCSS: true,
+			useSVG: false,
+			removeBarsOnMobile: false,
+			afterOpen: function () {
+				$('body').addClass('noscroll');
+			},
+			afterClose: function () {
+				$('body').removeClass('noscroll');
+			},
+		});
+	}
+
+
+body.noscroll {
+  overflow-y: hidden;
+}
+
+#swipebox-slider .slide {
+  overflow-y: auto;
+}
+#swipebox-slider .slide img {
+  max-height: none;
+}
+#swipebox-arrows {
+  max-width: none;
+}
