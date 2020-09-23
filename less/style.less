@@ -339,6 +339,41 @@ a.btn {
         line-height: 64px;
     }
 }
+a.back-btn {
+    position: absolute;
+    left: 15px;
+    top: -5px;
+    z-index: 1;
+    padding-left: 45px;
+    padding-right: 25px;
+    width: 200px;
+    height: 50px;
+    line-height: 48px;
+    &::after, &::before {
+        right: auto;
+        left: 2px;
+        width: 43px;
+        height: 43px;
+    }
+    &::before {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url("../img/ico-back-btn-blue.png");
+    }
+    &:hover, &:active {
+        &::before {
+            background-image: url("../img/ico-back-btn-white.png");
+        }
+    }
+}
+@media (max-width: 991px) {
+    a.back-btn {
+        position: relative;
+        top: 0;
+        left: 0;
+        margin-bottom: 40px;
+    }
+}
 /***contacts-link***/
 .contacts-link {
     font-weight: 500;
