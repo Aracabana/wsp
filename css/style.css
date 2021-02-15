@@ -1181,23 +1181,8 @@ header {
 .submenu-link:focus {
   color: #00bacf;
 }
-.menu-callback-btn {
-  visibility: hidden;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  margin-top: -31px;
-  width: 220px;
-  opacity: 0;
-}
-.menu-callback-btn::before {
-  background-image: url("../img/ico-tel-white.svg");
-  background-size: 24px 24px;
-}
-.menu-callback-btn:hover::before,
-.menu-callback-btn:active::before,
-.menu-callback-btn:focus::before {
-  background-image: url("../img/ico-tel-white.svg");
+.menu-contacts {
+  display: none;
 }
 .menu-wrapper.fixed {
   position: fixed;
@@ -1238,9 +1223,14 @@ header {
 .menu-wrapper.fixed .menu-link:active::after {
   background-color: #098f9e;
 }
-.menu-wrapper.fixed .menu-callback-btn {
-  opacity: 1;
-  visibility: visible;
+.menu-wrapper.fixed .menu-contacts .header-contacts-link {
+  color: #363f45;
+}
+.menu-wrapper.fixed .menu-contacts .header-email-link {
+  background-image: url("../img/ico-email-blue-small.svg");
+}
+.menu-wrapper.fixed .menu-contacts .header-phone-link {
+  background-image: url("../img/ico-tel-blue-small.svg");
 }
 .menu-wrapper.fixed .submenu {
   background-color: rgba(247, 245, 248, 0.9);
@@ -3398,10 +3388,6 @@ footer {
     line-height: 1.6;
     background-position: left 2px;
   }
-  /*=MENU=*/
-  .menu-callback-btn {
-    display: none;
-  }
   /*=CONTENT=*/
   /***Categories***/
   .category::before {
@@ -3557,6 +3543,10 @@ footer {
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
     justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
   }
@@ -3629,13 +3619,15 @@ footer {
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg);
   }
-  .menu-callback-btn {
-    position: relative;
-    visibility: visible;
+  .menu-contacts {
     display: block;
-    margin-top: 0;
-    opacity: 1;
-    background-color: #ffffff;
+  }
+  .menu-contacts p:first-child {
+    margin-bottom: 5px;
+  }
+  .menu-contacts .header-phone-link {
+    display: inline-block;
+    margin-bottom: 0;
   }
   .menu {
     overflow-y: auto;
@@ -4330,10 +4322,6 @@ footer {
   }
   .section-title-small {
     font-size: 20px;
-  }
-  /*=MENU=*/
-  .menu-callback-btn {
-    width: 200px;
   }
   /*=CONTENT=*/
   /***Categories***/

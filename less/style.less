@@ -822,23 +822,8 @@ header {
         color: @accent-color;
     }
 }
-.menu-callback-btn {
-    visibility: hidden;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    margin-top: -31px;
-    width: 220px;
-    opacity: 0;
-    &::before {
-        background-image: url("../img/ico-tel-white.svg");
-        background-size: 24px 24px;
-    }
-    &:hover, &:active, &:focus {
-        &::before {
-            background-image: url("../img/ico-tel-white.svg");
-        }
-    }
+.menu-contacts {
+    display: none;
 }
 .menu-wrapper.fixed {
     position: fixed;
@@ -876,9 +861,14 @@ header {
             }
         }
     }
-    .menu-callback-btn {
-        opacity: 1;
-        visibility: visible;
+    .menu-contacts .header-contacts-link {
+        color: @text-color;
+    }
+    .menu-contacts .header-email-link {
+        background-image: url("../img/ico-email-blue-small.svg");
+    }
+    .menu-contacts .header-phone-link {
+        background-image: url("../img/ico-tel-blue-small.svg");
     }
     .submenu {
         background-color: rgba(247, 245, 248, 0.9);

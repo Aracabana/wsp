@@ -40,10 +40,6 @@
         line-height: 1.6;
         background-position: left 2px;
     }
-    /*=MENU=*/
-    .menu-callback-btn {
-        display: none;
-    }
     /*=CONTENT=*/
     /***Categories***/
     .category {
@@ -219,6 +215,10 @@
         -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
         justify-content: space-between;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
         padding-top: 10px;
         padding-bottom: 10px;
     }
@@ -271,13 +271,15 @@
             }
         }
     }
-    .menu-callback-btn {
-        position: relative;
-        visibility: visible;
+    .menu-contacts {
         display: block;
-        margin-top: 0;
-        opacity: 1;
-        background-color: #ffffff;
+    }
+    .menu-contacts p:first-child {
+        margin-bottom: 5px;
+    }
+    .menu-contacts .header-phone-link {
+        display: inline-block;
+        margin-bottom: 0;
     }
     .menu {
         overflow-y: auto;
@@ -993,10 +995,6 @@
         &-small {
             font-size: 20px;
         }
-    }
-    /*=MENU=*/
-    .menu-callback-btn {
-        width: 200px;
     }
     /*=CONTENT=*/
     /***Categories***/
