@@ -61,6 +61,19 @@ $(document).ready(function () {
                     settings: {
                         slidesToShow: 1,
                     }
+                },
+                {
+                    breakpoint: 575,
+                    settings: {
+                        loop: false,
+                        vertical: true,
+                        touchMove: false,
+                        swipe: false,
+                        autoplay: false,
+                        draggable: false,
+                        arrows: false,
+                        slidesToShow: 3,
+                    }
                 }
             ]
         });

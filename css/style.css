@@ -2656,6 +2656,22 @@ footer {
   position: relative;
   z-index: 2;
 }
+@media (max-width: 380px) {
+  .home-portfolio .portfolio-slider {
+    padding-top: 0;
+  }
+  .home-portfolio .portfolio-slider .portfolio-card {
+    padding-bottom: 40px;
+  }
+  .home-portfolio .portfolio-slider .portfolio-card-info {
+    bottom: 40px;
+  }
+}
+@media (max-width: 380px) {
+  .home-portfolio .btn-center {
+    margin-top: 5px;
+  }
+}
 /***Reviews***/
 .home-reviews {
   margin-top: -57px;

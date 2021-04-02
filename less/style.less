@@ -2237,6 +2237,22 @@ footer {
         position: relative;
         z-index: 2;
     }
+    .portfolio-slider {
+        @media (max-width: 380px) {
+            padding-top: 0;
+            .portfolio-card {
+                padding-bottom: 40px;
+                &-info {
+                    bottom: 40px;
+                }
+            }
+        }
+    }
+    .btn-center {
+        @media (max-width: 380px) {
+            margin-top: 5px;
+        }
+    }
 }
 /***Reviews***/
 .home-reviews {
