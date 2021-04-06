@@ -3192,6 +3192,80 @@ footer {
 .map-wrapper {
   margin-top: 55px;
 }
+.cities {
+  display: flex;
+  justify-content: space-between;
+}
+.cities-list li {
+  margin-bottom: 24px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+  padding-left: 60px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.5;
+  -webkit-column-break-inside: avoid;
+  page-break-inside: avoid;
+  break-inside: avoid;
+  color: #333333;
+  background-repeat: no-repeat;
+  background-position: 2px center;
+  background-image: url("../img/ico-city-pin.svg");
+}
+.cities-list li:hover {
+  background-position: left center;
+  background-image: url("../img/ico-city-pin-hover.svg");
+  color: #00bacf;
+}
+@media (max-width: 1199px) {
+  .cities-list li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 45px;
+    font-size: 16px;
+    background-size: 33px auto;
+  }
+  .cities-list li:hover {
+    background-size: 39px auto;
+  }
+}
+@media (max-width: 991px) {
+  .cities {
+    display: block;
+  }
+  .cities-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .cities-list li {
+    width: 25%;
+    font-size: 14px;
+  }
+}
+@media (max-width: 991px) {
+  .cities {
+    display: block;
+  }
+  .cities-list {
+    flex-wrap: wrap;
+  }
+  .cities-list li {
+    width: 50%;
+  }
+}
+@media (max-width: 380px) {
+  .cities-list li {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 30px;
+    font-size: 12px;
+    background-size: 23px auto;
+  }
+  .cities-list li:hover {
+    background-size: 29px auto;
+  }
+}
 /*=TEXT-PAGE=*/
 .text-section {
   color: #333333;
